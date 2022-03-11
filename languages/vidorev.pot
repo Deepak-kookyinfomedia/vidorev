@@ -1,0 +1,3187 @@
+# Copyright (C) 2017 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Vidorev - Video Wordpress Theme\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2021-06-23 23:45+0700\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: BeeTeam368 <support@beeteam368.com>\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;_x;"
+"esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:30
+msgid "Ooops... Error"
+msgstr ""
+
+#: 404.php:42
+msgid "Back to homepage"
+msgstr ""
+
+#: amp/footer.php:8
+msgid "Copyright &copy; 2019. Created by BeeTeam368. Powered by WordPress"
+msgstr ""
+
+#: amp/header-bar.php:33 inc/to-redux.php:420
+msgid "Logo"
+msgstr ""
+
+#: author.php:88
+msgid "View all"
+msgstr ""
+
+#: author.php:91 inc/template-tags.php:4064
+msgid "Channels"
+msgstr ""
+
+#: author.php:94 inc/template-tags.php:1372 inc/template-tags.php:2206
+#: inc/template-tags.php:3434
+msgid "Videos"
+msgstr ""
+
+#: author.php:97 inc/template-tags.php:2214
+msgid "Playlists"
+msgstr ""
+
+#: author.php:100 inc/template-tags.php:2222
+msgid "Series"
+msgstr ""
+
+#: author.php:103
+msgid "News"
+msgstr ""
+
+#: comments.php:11 functions.php:705
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:12
+msgid "Leave your comment"
+msgstr ""
+
+#: comments.php:13
+#, php-format
+msgid "Leave a reply to %s"
+msgstr ""
+
+#: comments.php:14
+msgid "Your comment *"
+msgstr ""
+
+#: comments.php:26 inc/template-tags.php:2949
+msgid "Comment"
+msgstr ""
+
+#: comments.php:28 inc/template-tags.php:2951
+msgid "Comments"
+msgstr ""
+
+#: comments.php:36 comments.php:58
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:37 comments.php:59
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:24
+msgid "Top"
+msgstr ""
+
+#: functions.php:87
+msgid "VidoRev Extensions"
+msgstr ""
+
+#: functions.php:95
+msgid "Redux Framework"
+msgstr ""
+
+#: functions.php:101
+msgid "Elementor"
+msgstr ""
+
+#: functions.php:107
+msgid "Post Views Counter"
+msgstr ""
+
+#: functions.php:113
+msgid "WP PageNavi"
+msgstr ""
+
+#: functions.php:119
+msgid "Clean Login"
+msgstr ""
+
+#: functions.php:125
+msgid "Ajax Search Lite"
+msgstr ""
+
+#: functions.php:131
+msgid "Contact Form 7"
+msgstr ""
+
+#: functions.php:137
+msgid "Paid Memberships Pro"
+msgstr ""
+
+#: functions.php:143
+msgid "Yet Another Stars Rating"
+msgstr ""
+
+#: functions.php:149
+msgid "OnePress Social Locker"
+msgstr ""
+
+#: functions.php:155 inc/to-redux.php:771
+msgid "Instagram Feed"
+msgstr ""
+
+#: functions.php:161
+msgid "MailPoet Newsletters"
+msgstr ""
+
+#: functions.php:167
+msgid "Yoast SEO"
+msgstr ""
+
+#: functions.php:226
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:227 inc/to-redux.php:697
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:297 inc/mega-menu/extra-fields.php:6
+msgid "Extra Class Name"
+msgstr ""
+
+#: functions.php:302
+msgid "Widget Column"
+msgstr ""
+
+#: functions.php:304
+msgid "04/12"
+msgstr ""
+
+#: functions.php:305
+msgid "12/12"
+msgstr ""
+
+#: functions.php:306
+msgid "11/12"
+msgstr ""
+
+#: functions.php:307
+msgid "10/12"
+msgstr ""
+
+#: functions.php:308
+msgid "09/12"
+msgstr ""
+
+#: functions.php:309
+msgid "08/12"
+msgstr ""
+
+#: functions.php:310
+msgid "07/12"
+msgstr ""
+
+#: functions.php:311
+msgid "06/12"
+msgstr ""
+
+#: functions.php:312
+msgid "05/12"
+msgstr ""
+
+#: functions.php:313
+msgid "03/12"
+msgstr ""
+
+#: functions.php:314
+msgid "02/12"
+msgstr ""
+
+#: functions.php:315
+msgid "01/12"
+msgstr ""
+
+#: functions.php:363
+msgid "Main Sidebar"
+msgstr ""
+
+#: functions.php:365 functions.php:374 functions.php:384 functions.php:393
+#: functions.php:402 functions.php:411 functions.php:420 functions.php:429
+#: functions.php:439 functions.php:449 functions.php:459 functions.php:469
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:372
+msgid "Footer Sidebar"
+msgstr ""
+
+#: functions.php:382
+msgid "Elementor Sidebar 01"
+msgstr ""
+
+#: functions.php:391
+msgid "Elementor Sidebar 02"
+msgstr ""
+
+#: functions.php:400
+msgid "Elementor Sidebar 03"
+msgstr ""
+
+#: functions.php:409
+msgid "Elementor Sidebar 04"
+msgstr ""
+
+#: functions.php:418
+msgid "Elementor Sidebar 05"
+msgstr ""
+
+#: functions.php:427
+msgid "Elementor Sidebar 06"
+msgstr ""
+
+#: functions.php:437
+msgid "bbPress Sidebar"
+msgstr ""
+
+#: functions.php:447
+msgid "Woocommerce Sidebar"
+msgstr ""
+
+#: functions.php:457
+msgid "Side Menu - Sidebar"
+msgstr ""
+
+#: functions.php:467
+msgid "Advance Search - Sidebar"
+msgstr ""
+
+#: functions.php:699 inc/template-tags.php:2557
+msgid "Close"
+msgstr ""
+
+#: functions.php:700
+msgid "Suggested"
+msgstr ""
+
+#: functions.php:701
+msgid "Live comments"
+msgstr ""
+
+#: functions.php:702
+msgid "Auto next"
+msgstr ""
+
+#: functions.php:703
+msgid "Loading"
+msgstr ""
+
+#: functions.php:704
+msgid "Add a public comment"
+msgstr ""
+
+#: functions.php:706
+msgid "Reset"
+msgstr ""
+
+#: functions.php:707
+msgid "Please login to post a comment"
+msgstr ""
+
+#: functions.php:708 inc/template-tags.php:2607
+msgid "Loading advertisement..."
+msgstr ""
+
+#: functions.php:709
+msgid "Skip Ad"
+msgstr ""
+
+#: functions.php:710
+msgid "Skip ad in"
+msgstr ""
+
+#: functions.php:711 inc/template-functions.php:1504
+#: inc/template-functions.php:1711 inc/template-tags.php:2670
+msgid "Up next"
+msgstr ""
+
+#: functions.php:712
+msgid "cancel"
+msgstr ""
+
+#: functions.php:713
+msgid "Reported"
+msgstr ""
+
+#: functions.php:714
+msgid "Are you sure you want to delete this item?"
+msgstr ""
+
+#: functions.php:715
+msgid "The post has been deleted."
+msgstr ""
+
+#: functions.php:716 functions.php:717
+msgid "Loading Preview"
+msgstr ""
+
+#: functions.php:718
+msgid "Currently Offline"
+msgstr ""
+
+#: functions.php:719
+msgid "Live Streaming or Ended"
+msgstr ""
+
+#: functions.php:1522
+msgid "This content is for !!levels!! members only."
+msgstr ""
+
+#: functions.php:1533 functions.php:1579
+msgid "or"
+msgstr ""
+
+#: functions.php:1545 functions.php:1632 functions.php:1712 functions.php:1813
+#: functions.php:1845 functions.php:1893
+msgid "Video Image"
+msgstr ""
+
+#: functions.php:1550
+msgid "Register"
+msgstr ""
+
+#: functions.php:1561
+msgid ""
+"Trailer: This video is for !!levels!! members only [ <a href=\"!!"
+"register_url!!\" target=\"_blank\"><strong>REGISTER</strong></a> ]."
+msgstr ""
+
+#: functions.php:1636 functions.php:1897
+msgid "Want to see the full video?"
+msgstr ""
+
+#: functions.php:1638 functions.php:1718 functions.php:1754 functions.php:1899
+msgid "Watch Trailer"
+msgstr ""
+
+#: functions.php:1640
+msgid "Buy Now:"
+msgstr ""
+
+#: functions.php:1901 inc/template-tags.php:733 inc/template-tags.php:744
+#: inc/template-tags.php:888 inc/template-tags.php:4076
+msgid "Login"
+msgstr ""
+
+#: functions.php:1911
+msgid ""
+"Please <a href=\"[%login_url%]\" target=\"_blank\">Login</a> to watch the "
+"full video"
+msgstr ""
+
+#: inc/admin.php:16
+msgid "Processing"
+msgstr ""
+
+#: inc/admin.php:17
+msgid "Are you sure?"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:386
+#: inc/class-tgm-plugin-activation.php:827
+#: inc/class-tgm-plugin-activation.php:2533
+#: inc/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:387
+#: inc/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:392
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. Please "
+"update the plugin."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug and "
+"renaming did not work."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:934
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1121
+#: inc/class-tgm-plugin-activation.php:2948
+msgid "and"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2342
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2482
+msgid "unknown"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3509
+#: inc/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/mega-menu/extra-fields.php:5
+msgid "Activate MegaMenu"
+msgstr ""
+
+#: inc/template-functions.php:1727
+msgid "No suggested videos!"
+msgstr ""
+
+#: inc/template-functions.php:1856
+msgid "No comments found!"
+msgstr ""
+
+#: inc/template-functions.php:1917
+msgid "You are doing that too fast. Please wait 05 minutes before trying again."
+msgstr ""
+
+#: inc/template-tags.php:17 inc/template-tags.php:85 inc/template-tags.php:961
+#: inc/template-tags.php:4457
+#: template-parts/header-navigation-styles/header-side-menu.php:40
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:114 inc/template-tags.php:115 inc/template-tags.php:693
+#: inc/template-tags.php:694
+msgid "Membership Account"
+msgstr ""
+
+#: inc/template-tags.php:119 inc/template-tags.php:120 inc/template-tags.php:697
+#: inc/template-tags.php:698
+msgid "Billing Information"
+msgstr ""
+
+#: inc/template-tags.php:130 inc/template-tags.php:131 inc/template-tags.php:706
+#: inc/template-tags.php:707
+msgid "My Account"
+msgstr ""
+
+#: inc/template-tags.php:135 inc/template-tags.php:136 inc/template-tags.php:710
+#: inc/template-tags.php:711
+msgid "My Downloads"
+msgstr ""
+
+#: inc/template-tags.php:148 inc/template-tags.php:149 inc/template-tags.php:721
+#: inc/template-tags.php:722
+msgid "Subscriptions"
+msgstr ""
+
+#: inc/template-tags.php:536
+msgid "Latest news"
+msgstr ""
+
+#: inc/template-tags.php:583
+msgid "Watch later"
+msgstr ""
+
+#: inc/template-tags.php:619
+msgid "Notifications"
+msgstr ""
+
+#: inc/template-tags.php:636
+msgid "View your shopping cart"
+msgstr ""
+
+#: inc/template-tags.php:657 inc/template-tags.php:663 inc/template-tags.php:674
+#: inc/template-tags.php:865
+msgid "Hi!"
+msgstr ""
+
+#: inc/template-tags.php:677 inc/template-tags.php:868
+msgid "My Profile"
+msgstr ""
+
+#: inc/template-tags.php:680 inc/template-tags.php:871
+msgid "Edit my profile"
+msgstr ""
+
+#: inc/template-tags.php:682 inc/template-tags.php:873
+msgid "My Posts"
+msgstr ""
+
+#: inc/template-tags.php:686 inc/template-tags.php:877
+msgid "Logout"
+msgstr ""
+
+#: inc/template-tags.php:743 inc/template-tags.php:887
+msgid "You are not logged in!"
+msgstr ""
+
+#: inc/template-tags.php:746 inc/template-tags.php:890
+msgid "Create new account"
+msgstr ""
+
+#: inc/template-tags.php:758 inc/template-tags.php:767 inc/template-tags.php:851
+#: inc/template-tags.php:910 inc/template-tags.php:919 inc/template-tags.php:937
+#: search.php:21 template-parts/content-none.php:35
+msgid "Search"
+msgstr ""
+
+#: inc/template-tags.php:766 inc/template-tags.php:918
+msgid "Type and hit enter ..."
+msgstr ""
+
+#: inc/template-tags.php:797
+msgid "Submit video"
+msgstr ""
+
+#: inc/template-tags.php:935 search.php:19 template-parts/content-none.php:33
+msgid "Search..."
+msgstr ""
+
+#: inc/template-tags.php:962
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:963
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: inc/template-tags.php:964
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: inc/template-tags.php:965
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: inc/template-tags.php:966
+msgid "Error 404"
+msgstr ""
+
+#: inc/template-tags.php:1147
+msgid "Page"
+msgstr ""
+
+#: inc/template-tags.php:1219
+msgid "- LUD: "
+msgstr ""
+
+#: inc/template-tags.php:1230 inc/template-tags.php:1232
+msgid "ago"
+msgstr ""
+
+#: inc/template-tags.php:1380 inc/template-tags.php:1400
+msgid "Video"
+msgstr ""
+
+#: inc/template-tags.php:1385
+msgid "Play All"
+msgstr ""
+
+#: inc/template-tags.php:1486 inc/template-tags.php:2748 inc/to-redux.php:2205
+msgid "Watch Later"
+msgstr ""
+
+#: inc/template-tags.php:1486
+msgid "Added"
+msgstr ""
+
+#: inc/template-tags.php:1506
+msgid "icon"
+msgstr ""
+
+#: inc/template-tags.php:1864
+msgid " Previous"
+msgstr ""
+
+#: inc/template-tags.php:1868
+msgid "Next "
+msgstr ""
+
+#: inc/template-tags.php:1888 inc/template-tags.php:1890
+msgid "Load more"
+msgstr ""
+
+#: inc/template-tags.php:1976
+msgid "Actor"
+msgstr ""
+
+#: inc/template-tags.php:1976
+msgid "Director"
+msgstr ""
+
+#: inc/template-tags.php:1987
+msgid "Filmography"
+msgstr ""
+
+#: inc/template-tags.php:2180
+msgid "Channel Logo"
+msgstr ""
+
+#: inc/template-tags.php:2230
+msgid "About"
+msgstr ""
+
+#: inc/template-tags.php:2238
+msgid "Community"
+msgstr ""
+
+#: inc/template-tags.php:2332
+msgid "Subscribe"
+msgstr ""
+
+#: inc/template-tags.php:2333
+msgid "Subscribed"
+msgstr ""
+
+#: inc/template-tags.php:2558
+msgid "Scroll Up"
+msgstr ""
+
+#: inc/template-tags.php:2575
+msgid ""
+"<div class=\"require-plugin-player\">You need to have installed <a href="
+"\"https://wordpress.org/plugins/videojs-html5-player/\" target=\"_blank"
+"\">Videojs HTML5 Player</a> for used this feature.</div>"
+msgstr ""
+
+#: inc/template-tags.php:2589
+msgid ""
+"<div class=\"require-plugin-player\">You need to have installed <a href="
+"\"https://wordpress.org/plugins/fv-wordpress-flowplayer/\" target=\"_blank"
+"\">FV Flowplayer Video Player</a> for used this feature.</div>"
+msgstr ""
+
+#: inc/template-tags.php:2612
+msgid "Preload Image"
+msgstr ""
+
+#: inc/template-tags.php:2618
+msgid "Video title"
+msgstr ""
+
+#: inc/template-tags.php:2680
+msgid "Cancel"
+msgstr ""
+
+#: inc/template-tags.php:2709 inc/to-redux.php:1938
+msgid "Turn Off Light"
+msgstr ""
+
+#: inc/template-tags.php:2758
+msgid "Share"
+msgstr ""
+
+#: inc/template-tags.php:2770 inc/to-redux.php:1992
+msgid "Auto Next"
+msgstr ""
+
+#: inc/template-tags.php:2780
+msgid "Theater"
+msgstr ""
+
+#: inc/template-tags.php:2804 inc/template-tags.php:2850
+msgid "Download File"
+msgstr ""
+
+#: inc/template-tags.php:2815 inc/template-tags.php:2818
+#: inc/template-tags.php:2865 inc/template-tags.php:2867
+#: inc/template-tags.php:2880
+msgid "Download"
+msgstr ""
+
+#: inc/template-tags.php:2836
+msgid "Free Download"
+msgstr ""
+
+#: inc/template-tags.php:2876
+msgid "Download Package"
+msgstr ""
+
+#: inc/template-tags.php:2899
+msgid "PURCHASED"
+msgstr ""
+
+#: inc/template-tags.php:2907
+msgid "BUY"
+msgstr ""
+
+#: inc/template-tags.php:3214 template-parts/single-post/content-footer.php:57
+msgid "Previous Video"
+msgstr ""
+
+#: inc/template-tags.php:3231 template-parts/single-post/content-footer.php:58
+msgid "Next Video"
+msgstr ""
+
+#: inc/template-tags.php:3402
+msgid "Your Name"
+msgstr ""
+
+#: inc/template-tags.php:3403
+msgid "Your Email"
+msgstr ""
+
+#: inc/template-tags.php:3404
+msgid "Your Website"
+msgstr ""
+
+#: inc/template-tags.php:3415 inc/template-tags.php:3448
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: inc/template-tags.php:3417
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: inc/template-tags.php:3419
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/template-tags.php:3421
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/template-tags.php:3421
+msgid "Y"
+msgstr ""
+
+#: inc/template-tags.php:3423
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/template-tags.php:3423
+msgid "F Y"
+msgstr ""
+
+#: inc/template-tags.php:3425
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/template-tags.php:3425
+msgid "F j, Y"
+msgstr ""
+
+#: inc/template-tags.php:3428
+msgid "Asides"
+msgstr ""
+
+#: inc/template-tags.php:3430
+msgid "Galleries"
+msgstr ""
+
+#: inc/template-tags.php:3432
+msgid "Images"
+msgstr ""
+
+#: inc/template-tags.php:3436
+msgid "Quotes"
+msgstr ""
+
+#: inc/template-tags.php:3438
+msgid "Links"
+msgstr ""
+
+#: inc/template-tags.php:3440
+msgid "Statuses"
+msgstr ""
+
+#: inc/template-tags.php:3442
+msgid "Audio"
+msgstr ""
+
+#: inc/template-tags.php:3444
+msgid "Chats"
+msgstr ""
+
+#: inc/template-tags.php:3450
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#: inc/template-tags.php:3455
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: inc/template-tags.php:3457
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/template-tags.php:3460
+msgid "Archives"
+msgstr ""
+
+#: inc/template-tags.php:3481
+msgid "Category image"
+msgstr ""
+
+#: inc/template-tags.php:3492
+msgid "Playlist image"
+msgstr ""
+
+#: inc/template-tags.php:3498
+msgid "Channel image"
+msgstr ""
+
+#: inc/template-tags.php:3504
+msgid "Actor image"
+msgstr ""
+
+#: inc/template-tags.php:3510
+msgid "Director image"
+msgstr ""
+
+#: inc/template-tags.php:3516
+msgid "Series image"
+msgstr ""
+
+#: inc/template-tags.php:3531
+msgid "Posts"
+msgstr ""
+
+#: inc/template-tags.php:3540
+msgid "Sort by"
+msgstr ""
+
+#: inc/template-tags.php:3543 inc/template-tags.php:3548
+#: inc/template-tags.php:3589 inc/to-redux.php:1405
+msgid "Latest"
+msgstr ""
+
+#: inc/template-tags.php:3552 inc/template-tags.php:3590
+msgid "Most commented"
+msgstr ""
+
+#: inc/template-tags.php:3556 inc/template-tags.php:3592
+msgid "Most viewed"
+msgstr ""
+
+#: inc/template-tags.php:3560 inc/template-tags.php:3596
+msgid "Most liked"
+msgstr ""
+
+#: inc/template-tags.php:3564 inc/template-tags.php:3599
+msgid "Title"
+msgstr ""
+
+#: inc/template-tags.php:3568 inc/template-tags.php:3602
+msgid "Most Subscribed"
+msgstr ""
+
+#: inc/template-tags.php:3572 inc/template-tags.php:3606
+msgid "Highest Rated"
+msgstr ""
+
+#: inc/template-tags.php:3654
+msgid "ALL"
+msgstr ""
+
+#: inc/template-tags.php:3968 inc/template-tags.php:4029
+#: inc/template-tags.php:4062
+msgid "No videos yet!"
+msgstr ""
+
+#: inc/template-tags.php:3969 inc/template-tags.php:4030
+msgid "Click on \"Watch later\" to put videos here"
+msgstr ""
+
+#: inc/template-tags.php:3977 inc/template-tags.php:4038
+msgid "View All Videos"
+msgstr ""
+
+#: inc/template-tags.php:3978 inc/template-tags.php:4039
+msgid "View all videos"
+msgstr ""
+
+#: inc/template-tags.php:4063
+msgid "Please subscribe your favorite channels to receive notifications"
+msgstr ""
+
+#: inc/template-tags.php:4065
+msgid "View All Channels"
+msgstr ""
+
+#: inc/template-tags.php:4070
+msgid "Don't miss new videos"
+msgstr ""
+
+#: inc/template-tags.php:4071
+msgid "Sign in to see updates from your favourite channels"
+msgstr ""
+
+#: inc/template-tags.php:4077
+msgid "Sign In"
+msgstr ""
+
+#: inc/template-tags.php:4114 inc/template-tags.php:4115
+msgid "View New Videos"
+msgstr ""
+
+#: inc/template-tags.php:4133
+msgid "@ Follow me"
+msgstr ""
+
+#: inc/template-tags.php:4409
+msgid "New Videos"
+msgstr ""
+
+#: inc/template-tags.php:4410
+msgid "Today"
+msgstr ""
+
+#: inc/template-tags.php:4514
+msgid "You've already purchased this download package. Thanks!"
+msgstr ""
+
+#: inc/template-tags.php:4548
+msgid "Downloads"
+msgstr ""
+
+#: inc/template-tags.php:4585
+msgid "You've already purchased this product. Thanks!"
+msgstr ""
+
+#: inc/template-tags.php:4615
+msgid "Premium Videos"
+msgstr ""
+
+#: inc/template-tags.php:4811 inc/template-tags.php:4866
+msgid "Subscriber"
+msgstr ""
+
+#: inc/template-tags.php:4813 inc/template-tags.php:4868
+msgid "Subscribers"
+msgstr ""
+
+#: inc/to-redux.php:76 inc/to-redux.php:77
+msgid "Theme Options"
+msgstr ""
+
+#: inc/to-redux.php:115
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+
+#: inc/to-redux.php:123
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: inc/to-redux.php:131
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+
+#: inc/to-redux.php:139
+msgid "Select an item"
+msgstr ""
+
+#: inc/to-redux.php:162 inc/to-redux.php:2180
+msgid "Multiple Set"
+msgstr ""
+
+#: inc/to-redux.php:163
+msgid "Select set for video posts"
+msgstr ""
+
+#: inc/to-redux.php:173
+msgid "Global Settings"
+msgstr ""
+
+#: inc/to-redux.php:180
+msgid "RTL Mode"
+msgstr ""
+
+#: inc/to-redux.php:181
+msgid "Enable/Disable Right-to-Left language"
+msgstr ""
+
+#: inc/to-redux.php:187
+msgid "Lazyload Images"
+msgstr ""
+
+#: inc/to-redux.php:188
+msgid "Enable/Disable Lazyload Images"
+msgstr ""
+
+#: inc/to-redux.php:194
+msgid "Fade-in Image on Scrolling"
+msgstr ""
+
+#: inc/to-redux.php:195
+msgid "Display the matched images by fading them to opaque."
+msgstr ""
+
+#: inc/to-redux.php:202
+msgid "Number Format"
+msgstr ""
+
+#: inc/to-redux.php:203
+msgid "Converts a number into a short version, eg: 1000 -> 1k"
+msgstr ""
+
+#: inc/to-redux.php:206
+msgid "Shorten long numbers to K/M/B/T"
+msgstr ""
+
+#: inc/to-redux.php:207
+msgid "Number Format Default"
+msgstr ""
+
+#: inc/to-redux.php:213
+msgid "DateTime Format"
+msgstr ""
+
+#: inc/to-redux.php:216 inc/to-redux.php:273 inc/to-redux.php:275
+#: inc/to-redux.php:388 inc/to-redux.php:390 inc/to-redux.php:477
+#: inc/to-redux.php:1007 inc/to-redux.php:1009 inc/to-redux.php:1080
+#: inc/to-redux.php:1082 inc/to-redux.php:1188 inc/to-redux.php:1190
+#: inc/to-redux.php:1274 inc/to-redux.php:1276 inc/to-redux.php:1487
+#: inc/to-redux.php:2215 inc/to-redux.php:2217 inc/to-redux.php:2303
+#: inc/to-redux.php:2305 inc/to-redux.php:2392 inc/to-redux.php:2394
+msgid "Default"
+msgstr ""
+
+#: inc/to-redux.php:217
+msgid "Time Ago"
+msgstr ""
+
+#: inc/to-redux.php:223
+msgid "Scroll Back To Top Button"
+msgstr ""
+
+#: inc/to-redux.php:224
+msgid "Enable/Disable Scroll Back To Top Button."
+msgstr ""
+
+#: inc/to-redux.php:230
+msgid "WordPress Nonces"
+msgstr ""
+
+#: inc/to-redux.php:231
+msgid ""
+"A nonce is a \"number used once\" to help protect URLs and forms from certain "
+"types of misuse, malicious or otherwise. If you do not use any cache related "
+"tools, you can enable this option."
+msgstr ""
+
+#: inc/to-redux.php:237
+msgid "Preload FontAwesome"
+msgstr ""
+
+#: inc/to-redux.php:246
+msgid "Styling"
+msgstr ""
+
+#: inc/to-redux.php:253
+msgid "Color Mode"
+msgstr ""
+
+#: inc/to-redux.php:254
+msgid "Select Color Mode"
+msgstr ""
+
+#: inc/to-redux.php:258 inc/to-redux.php:276
+msgid "Light"
+msgstr ""
+
+#: inc/to-redux.php:262 inc/to-redux.php:277
+msgid "Dark"
+msgstr ""
+
+#: inc/to-redux.php:270
+msgid "WooCommerce Color Mode"
+msgstr ""
+
+#: inc/to-redux.php:271
+msgid "Select Color Mode For WooCommerce"
+msgstr ""
+
+#: inc/to-redux.php:283
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/to-redux.php:284
+msgid "Select Theme Layout"
+msgstr ""
+
+#: inc/to-redux.php:288
+msgid "Wide"
+msgstr ""
+
+#: inc/to-redux.php:292
+msgid "Inbox"
+msgstr ""
+
+#: inc/to-redux.php:300
+msgid "Full-Width Mode"
+msgstr ""
+
+#: inc/to-redux.php:307
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:308
+msgid "Enable/Disable Sticky Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:314
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/to-redux.php:315
+msgid "Enable/Disable Breadcrumbs"
+msgstr ""
+
+#: inc/to-redux.php:321 inc/to-redux.php:1004 inc/to-redux.php:1185
+#: inc/to-redux.php:1271 inc/to-redux.php:2300 inc/to-redux.php:2389
+msgid "Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:322 inc/to-redux.php:343 inc/to-redux.php:364
+msgid "Select sidebar appearance"
+msgstr ""
+
+#: inc/to-redux.php:326 inc/to-redux.php:347 inc/to-redux.php:368
+#: inc/to-redux.php:1010 inc/to-redux.php:1191 inc/to-redux.php:1277
+#: inc/to-redux.php:2218 inc/to-redux.php:2306 inc/to-redux.php:2395
+msgid "Right"
+msgstr ""
+
+#: inc/to-redux.php:330 inc/to-redux.php:351 inc/to-redux.php:372
+#: inc/to-redux.php:1011 inc/to-redux.php:1192 inc/to-redux.php:1278
+#: inc/to-redux.php:2219 inc/to-redux.php:2307 inc/to-redux.php:2396
+msgid "Left"
+msgstr ""
+
+#: inc/to-redux.php:334 inc/to-redux.php:355 inc/to-redux.php:376
+#: inc/to-redux.php:1012 inc/to-redux.php:1193 inc/to-redux.php:1279
+#: inc/to-redux.php:2220 inc/to-redux.php:2308 inc/to-redux.php:2397
+msgid "Hidden"
+msgstr ""
+
+#: inc/to-redux.php:342
+msgid "WooCommerce Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:363
+msgid "BBPress Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:385
+msgid "Scrollbar Library"
+msgstr ""
+
+#: inc/to-redux.php:386
+msgid ""
+"Select library for placements using Custom Scroll Bar. Please update the "
+"VidoRev Extensions plugin to version 2.9.9.9.7.4 or higher to use this "
+"feature!"
+msgstr ""
+
+#: inc/to-redux.php:391
+msgid "Malihu Scrollbars"
+msgstr ""
+
+#: inc/to-redux.php:392
+msgid "Overlay Scrollbars"
+msgstr ""
+
+#: inc/to-redux.php:399
+msgid "Background"
+msgstr ""
+
+#: inc/to-redux.php:404
+msgid "Custom CSS"
+msgstr ""
+
+#: inc/to-redux.php:413
+msgid "Header"
+msgstr ""
+
+#: inc/to-redux.php:421
+msgid "Upload your logo image"
+msgstr ""
+
+#: inc/to-redux.php:422 inc/to-redux.php:431 inc/to-redux.php:440
+#: inc/to-redux.php:448 inc/to-redux.php:457 inc/to-redux.php:465
+#: inc/to-redux.php:2486
+msgid "No image selected"
+msgstr ""
+
+#: inc/to-redux.php:429
+msgid "Logo (Retina)"
+msgstr ""
+
+#: inc/to-redux.php:430
+msgid ""
+"Retina logo should be two time bigger than the custom logo. Retina Logo is "
+"optional, use this setting if you want to strictly support retina devices"
+msgstr ""
+
+#: inc/to-redux.php:438
+msgid "Main logo on mobile devices"
+msgstr ""
+
+#: inc/to-redux.php:439
+msgid "Upload your logo image for mobile devices"
+msgstr ""
+
+#: inc/to-redux.php:447
+msgid "Main logo on mobile devices (Retina)"
+msgstr ""
+
+#: inc/to-redux.php:455
+msgid "Logo for Sticky Menu"
+msgstr ""
+
+#: inc/to-redux.php:456
+msgid "Upload your logo image for sticky menu"
+msgstr ""
+
+#: inc/to-redux.php:464
+msgid "Logo for Sticky Menu (Retina)"
+msgstr ""
+
+#: inc/to-redux.php:472
+msgid "Main Navigation Layout"
+msgstr ""
+
+#: inc/to-redux.php:473
+msgid "Select Navigation Layout"
+msgstr ""
+
+#: inc/to-redux.php:481
+msgid "Classic"
+msgstr ""
+
+#: inc/to-redux.php:485
+msgid "Sport"
+msgstr ""
+
+#: inc/to-redux.php:489
+msgid "Tech"
+msgstr ""
+
+#: inc/to-redux.php:493
+msgid "Blog"
+msgstr ""
+
+#: inc/to-redux.php:497
+msgid "Movie"
+msgstr ""
+
+#: inc/to-redux.php:501
+msgid "Side"
+msgstr ""
+
+#: inc/to-redux.php:509
+msgid "Ajax Search"
+msgstr ""
+
+#: inc/to-redux.php:510
+msgid ""
+"Enable/Disable Ajax Search. You will need to install Ajax Search Lite plugin"
+msgstr ""
+
+#: inc/to-redux.php:517
+msgid "Mega Menu"
+msgstr ""
+
+#: inc/to-redux.php:518
+msgid "Enable/Disable Mega Menu"
+msgstr ""
+
+#: inc/to-redux.php:524
+msgid "Mega Menu Pagination"
+msgstr ""
+
+#: inc/to-redux.php:525
+msgid "Enable/Disable Mega Menu Pagination"
+msgstr ""
+
+#: inc/to-redux.php:532
+msgid "Sticky Menu"
+msgstr ""
+
+#: inc/to-redux.php:533
+msgid "Enable/Disable Sticky Menu"
+msgstr ""
+
+#: inc/to-redux.php:539
+msgid "Select Sticky Menu Behavior"
+msgstr ""
+
+#: inc/to-redux.php:542
+msgid "Only appears when page is Scrolled Up"
+msgstr ""
+
+#: inc/to-redux.php:543
+msgid "Always Sticky"
+msgstr ""
+
+#: inc/to-redux.php:550
+msgid "Latest News"
+msgstr ""
+
+#: inc/to-redux.php:551
+msgid "Enable/Disable Latest News. Get latest posts without video."
+msgstr ""
+
+#: inc/to-redux.php:557
+msgid "[Latest News] Title"
+msgstr ""
+
+#: inc/to-redux.php:558
+msgid "Enter Title for Latest News section"
+msgstr ""
+
+#: inc/to-redux.php:564
+msgid "[Latest News] Include Categories"
+msgstr ""
+
+#: inc/to-redux.php:565 inc/to-redux.php:758
+msgid "Include categories, enter category id or slug, eg: 245, 126, ..."
+msgstr ""
+
+#: inc/to-redux.php:571
+msgid "[Latest News] Include Tags"
+msgstr ""
+
+#: inc/to-redux.php:572 inc/to-redux.php:765
+msgid "Include tags, enter tag id or slug, eg: 19, 368, ..."
+msgstr ""
+
+#: inc/to-redux.php:578
+msgid "[Latest News] Post Type"
+msgstr ""
+
+#: inc/to-redux.php:581
+msgid "Post ( without video posts )"
+msgstr ""
+
+#: inc/to-redux.php:582
+msgid "Post ( all posts )"
+msgstr ""
+
+#: inc/to-redux.php:583
+msgid "Post - Video"
+msgstr ""
+
+#: inc/to-redux.php:590
+msgid "Login/User Icon"
+msgstr ""
+
+#: inc/to-redux.php:591
+msgid "Enable/Disable Login/User Icon"
+msgstr ""
+
+#: inc/to-redux.php:597
+msgid "Login Page"
+msgstr ""
+
+#: inc/to-redux.php:598 inc/to-redux.php:606 inc/to-redux.php:614
+#: inc/to-redux.php:622
+msgid "Update this field if you use another login plugin"
+msgstr ""
+
+#: inc/to-redux.php:605
+msgid "Lost Password Page"
+msgstr ""
+
+#: inc/to-redux.php:613
+msgid "Register Page"
+msgstr ""
+
+#: inc/to-redux.php:621
+msgid "Profile Page"
+msgstr ""
+
+#: inc/to-redux.php:629
+msgid "Login Shortcode"
+msgstr ""
+
+#: inc/to-redux.php:630
+msgid "Use for locations that require login."
+msgstr ""
+
+#: inc/to-redux.php:636
+msgid "Submit Video"
+msgstr ""
+
+#: inc/to-redux.php:637
+msgid "Enable/Disable User Submit Video"
+msgstr ""
+
+#: inc/to-redux.php:643
+msgid "[Submit Video] Text"
+msgstr ""
+
+#: inc/to-redux.php:644
+msgid "Enter text for submit video button"
+msgstr ""
+
+#: inc/to-redux.php:650
+msgid "[Submit Video] Page"
+msgstr ""
+
+#: inc/to-redux.php:651
+msgid ""
+"This sets the base your \"submit video page\". You will need to install "
+"Contact Form 7 plugin"
+msgstr ""
+
+#: inc/to-redux.php:658
+msgid "[Submit Video] Video Submit Shortcode"
+msgstr ""
+
+#: inc/to-redux.php:659
+msgid "Enter shortcode for submit video form"
+msgstr ""
+
+#: inc/to-redux.php:665
+msgid "[Submit Video] Channel Submit Shortcode"
+msgstr ""
+
+#: inc/to-redux.php:666
+msgid "Enter shortcode for submit channel form"
+msgstr ""
+
+#: inc/to-redux.php:672
+msgid "[Submit Video] Playlist Submit Shortcode"
+msgstr ""
+
+#: inc/to-redux.php:673
+msgid "Enter shortcode for submit playlist form"
+msgstr ""
+
+#: inc/to-redux.php:679
+msgid "[Submit Video] For Polylang."
+msgstr ""
+
+#: inc/to-redux.php:680
+msgid "Additional video posting pages for other languages."
+msgstr ""
+
+#: inc/to-redux.php:688
+msgid "Language"
+msgstr ""
+
+#: inc/to-redux.php:689
+msgid ""
+"Shortcodes separated by commas. Order: [shortcode for submit video form], "
+"[shortcode for submit channel form], [shortcode for submit playlist form]. "
+"Eg: [contact-form-7 id=\"5200\" title=\"Submit Video\"], [contact-form-7 id="
+"\"4380\" title=\"Submit Channel\"], [contact-form-7 id=\"4379\" title="
+"\"Submit Playlist\"]. You create additional video submission forms via CF7."
+msgstr ""
+
+#: inc/to-redux.php:690
+msgid "Page ID: Enter the ID of the page generated by Polylang. Eg: 1104, 2067"
+msgstr ""
+
+#: inc/to-redux.php:698
+msgid "Enable/Disable Top Menu."
+msgstr ""
+
+#: inc/to-redux.php:705
+msgid "[Top Menu] Position"
+msgstr ""
+
+#: inc/to-redux.php:707
+msgid "LEFT"
+msgstr ""
+
+#: inc/to-redux.php:708
+msgid "RIGHT"
+msgstr ""
+
+#: inc/to-redux.php:709
+msgid "Before Social"
+msgstr ""
+
+#: inc/to-redux.php:716
+msgid "Header Background"
+msgstr ""
+
+#: inc/to-redux.php:721
+msgid "Mobile Menu Background"
+msgstr ""
+
+#: inc/to-redux.php:729
+msgid "Footer"
+msgstr ""
+
+#: inc/to-redux.php:736
+msgid "Popular Videos"
+msgstr ""
+
+#: inc/to-redux.php:737
+msgid ""
+"Enable/Disable Popular Videos. You will need to install Post Views Counter "
+"plugin."
+msgstr ""
+
+#: inc/to-redux.php:743
+msgid "[Popular Videos] Title 1"
+msgstr ""
+
+#: inc/to-redux.php:744 inc/to-redux.php:751
+msgid "Enter Title for Popular Videos section"
+msgstr ""
+
+#: inc/to-redux.php:750
+msgid "[Popular Videos] Title 2"
+msgstr ""
+
+#: inc/to-redux.php:757
+msgid "[Popular Videos] Include Categories"
+msgstr ""
+
+#: inc/to-redux.php:764
+msgid "[Popular Videos] Include Tags"
+msgstr ""
+
+#: inc/to-redux.php:772
+msgid ""
+"Enable/Disable Instagram Feed. You will need to install Instagram Feed plugin"
+msgstr ""
+
+#: inc/to-redux.php:778
+msgid "Instagram Feed Display Position"
+msgstr ""
+
+#: inc/to-redux.php:781
+msgid "HEADER"
+msgstr ""
+
+#: inc/to-redux.php:782
+msgid "FOOTER"
+msgstr ""
+
+#: inc/to-redux.php:789
+msgid "Footer Copyright Text"
+msgstr ""
+
+#: inc/to-redux.php:797
+msgid "Color & Typography"
+msgstr ""
+
+#: inc/to-redux.php:804
+msgid "Main Skin Color"
+msgstr ""
+
+#: inc/to-redux.php:805
+msgid "Choose main skin color"
+msgstr ""
+
+#: inc/to-redux.php:811
+msgid "Main Color Mixing (with black)"
+msgstr ""
+
+#: inc/to-redux.php:812
+msgid "Default: 0.10"
+msgstr ""
+
+#: inc/to-redux.php:822
+msgid "Sub Skin Color"
+msgstr ""
+
+#: inc/to-redux.php:823
+msgid "Choose sub skin color"
+msgstr ""
+
+#: inc/to-redux.php:830
+msgid "Main Navigation Background Color"
+msgstr ""
+
+#: inc/to-redux.php:836
+msgid "Main Navigation Background Hover (and/Active) Color"
+msgstr ""
+
+#: inc/to-redux.php:842
+msgid "Main Navigation Text Color"
+msgstr ""
+
+#: inc/to-redux.php:848
+msgid "Main Navigation Text Hover (and/Active) Color"
+msgstr ""
+
+#: inc/to-redux.php:854
+msgid "Main Navigation Dropdown Background Color"
+msgstr ""
+
+#: inc/to-redux.php:860
+msgid "Main Navigation Dropdown Background Hover (and/Active) Color"
+msgstr ""
+
+#: inc/to-redux.php:866
+msgid "Main Navigation Dropdown Text Color"
+msgstr ""
+
+#: inc/to-redux.php:872
+msgid "Main Navigation Dropdown Text Hover (and/Active) Color"
+msgstr ""
+
+#: inc/to-redux.php:878
+msgid "Main Font"
+msgstr ""
+
+#: inc/to-redux.php:886
+msgid "Main Font Settings"
+msgstr ""
+
+#: inc/to-redux.php:896
+msgid "Main Font Scale"
+msgstr ""
+
+#: inc/to-redux.php:897 inc/to-redux.php:926 inc/to-redux.php:955
+#: inc/to-redux.php:984
+msgid "Default: 1.00"
+msgstr ""
+
+#: inc/to-redux.php:908
+msgid "Heading Font"
+msgstr ""
+
+#: inc/to-redux.php:915
+msgid "Heading Font Settings"
+msgstr ""
+
+#: inc/to-redux.php:925
+msgid "Heading Font Scale"
+msgstr ""
+
+#: inc/to-redux.php:937
+msgid "Navigation Font"
+msgstr ""
+
+#: inc/to-redux.php:944
+msgid "Navigation Font Settings"
+msgstr ""
+
+#: inc/to-redux.php:954
+msgid "Navigation Font Scale"
+msgstr ""
+
+#: inc/to-redux.php:966
+msgid "Meta Font"
+msgstr ""
+
+#: inc/to-redux.php:973
+msgid "Meta Font Settings"
+msgstr ""
+
+#: inc/to-redux.php:983
+msgid "Meta Font Scale"
+msgstr ""
+
+#: inc/to-redux.php:997
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/to-redux.php:1005 inc/to-redux.php:1186 inc/to-redux.php:1272
+#: inc/to-redux.php:2301 inc/to-redux.php:2390
+msgid "Select \"Default\" to use settings in Theme Options > Styling"
+msgstr ""
+
+#: inc/to-redux.php:1018
+msgid "Archive Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:1019
+msgid "Select Archive Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:1023 inc/to-redux.php:2232 inc/to-redux.php:2319
+#: inc/to-redux.php:2408
+msgid "Grid - Default"
+msgstr ""
+
+#: inc/to-redux.php:1027 inc/to-redux.php:2236 inc/to-redux.php:2323
+#: inc/to-redux.php:2412
+msgid "List - Default"
+msgstr ""
+
+#: inc/to-redux.php:1031 inc/to-redux.php:2240 inc/to-redux.php:2327
+#: inc/to-redux.php:2416
+msgid "Grid - Special"
+msgstr ""
+
+#: inc/to-redux.php:1035 inc/to-redux.php:2244 inc/to-redux.php:2331
+#: inc/to-redux.php:2420
+msgid "List - Special"
+msgstr ""
+
+#: inc/to-redux.php:1039 inc/to-redux.php:2248 inc/to-redux.php:2335
+#: inc/to-redux.php:2424
+msgid "Grid - Modern"
+msgstr ""
+
+#: inc/to-redux.php:1043 inc/to-redux.php:2252 inc/to-redux.php:2339
+#: inc/to-redux.php:2428
+msgid "Grid - Poster"
+msgstr ""
+
+#: inc/to-redux.php:1047 inc/to-redux.php:2256 inc/to-redux.php:2343
+#: inc/to-redux.php:2432
+msgid "List - Blog Wide"
+msgstr ""
+
+#: inc/to-redux.php:1051 inc/to-redux.php:2260 inc/to-redux.php:2347
+#: inc/to-redux.php:2436
+msgid "List - Poster"
+msgstr ""
+
+#: inc/to-redux.php:1055 inc/to-redux.php:2264 inc/to-redux.php:2351
+#: inc/to-redux.php:2440
+msgid "Grid - Small"
+msgstr ""
+
+#: inc/to-redux.php:1064
+msgid "Alphabet Filter"
+msgstr ""
+
+#: inc/to-redux.php:1070
+msgid "Local Alphabet"
+msgstr ""
+
+#: inc/to-redux.php:1071
+msgid ""
+"Enter your country's alphabet here. The letters are separated by commas. "
+"Example: A,B,C,D,E... If blank, the English alphabet is the default."
+msgstr ""
+
+#: inc/to-redux.php:1077
+msgid "Image Ratio"
+msgstr ""
+
+#: inc/to-redux.php:1078
+msgid ""
+"This option will change the ratio of the image for the archive pages on your "
+"theme."
+msgstr ""
+
+#: inc/to-redux.php:1083
+msgid "Video - 16:9"
+msgstr ""
+
+#: inc/to-redux.php:1084
+msgid "Blog - 4:3"
+msgstr ""
+
+#: inc/to-redux.php:1085
+msgid "Movie - 2:3"
+msgstr ""
+
+#: inc/to-redux.php:1091
+msgid "Location of Category Description"
+msgstr ""
+
+#: inc/to-redux.php:1094
+msgid "TOP"
+msgstr ""
+
+#: inc/to-redux.php:1095
+msgid "BOTTOM"
+msgstr ""
+
+#: inc/to-redux.php:1101
+msgid "Display Lightbox Icon"
+msgstr ""
+
+#: inc/to-redux.php:1107 inc/to-redux.php:1285 inc/to-redux.php:1871
+msgid "Display Post Categories"
+msgstr ""
+
+#: inc/to-redux.php:1113
+msgid "Display Post Excerpt"
+msgstr ""
+
+#: inc/to-redux.php:1119 inc/to-redux.php:1291 inc/to-redux.php:1877
+msgid "Display Post Author"
+msgstr ""
+
+#: inc/to-redux.php:1125 inc/to-redux.php:1297 inc/to-redux.php:1883
+msgid "Display Post Published Date"
+msgstr ""
+
+#: inc/to-redux.php:1131 inc/to-redux.php:1303 inc/to-redux.php:1889
+msgid "Display Last Updated Date"
+msgstr ""
+
+#: inc/to-redux.php:1138 inc/to-redux.php:1310 inc/to-redux.php:1896
+msgid "Display Post Comment Count"
+msgstr ""
+
+#: inc/to-redux.php:1144 inc/to-redux.php:1316 inc/to-redux.php:1902
+msgid "Display Post View Count"
+msgstr ""
+
+#: inc/to-redux.php:1150 inc/to-redux.php:1322 inc/to-redux.php:1908
+msgid "Display Post Like Count"
+msgstr ""
+
+#: inc/to-redux.php:1156 inc/to-redux.php:1328 inc/to-redux.php:1914
+msgid "Display Post Dislike Count"
+msgstr ""
+
+#: inc/to-redux.php:1162 inc/to-redux.php:2360 inc/to-redux.php:2449
+msgid "Pagination"
+msgstr ""
+
+#: inc/to-redux.php:1163
+msgid ""
+"Choose type of navigation for blog and any listing page. For WP PageNavi, you "
+"will need to install WP PageNavi plugin"
+msgstr ""
+
+#: inc/to-redux.php:1166 inc/to-redux.php:2364 inc/to-redux.php:2453
+msgid "WordPress Default"
+msgstr ""
+
+#: inc/to-redux.php:1167 inc/to-redux.php:2365 inc/to-redux.php:2454
+msgid "Load More Button (Ajax)"
+msgstr ""
+
+#: inc/to-redux.php:1168 inc/to-redux.php:2366 inc/to-redux.php:2455
+msgid "Infinite Scroll (Ajax)"
+msgstr ""
+
+#: inc/to-redux.php:1169 inc/to-redux.php:2367 inc/to-redux.php:2456
+msgid "WP PageNavi (Plugin)"
+msgstr ""
+
+#: inc/to-redux.php:1178
+msgid "Single Page Settings"
+msgstr ""
+
+#: inc/to-redux.php:1199
+msgid "Page Comments"
+msgstr ""
+
+#: inc/to-redux.php:1200
+msgid "Enable/Disable Page Comments"
+msgstr ""
+
+#: inc/to-redux.php:1209
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/to-redux.php:1216
+msgid "Feature Image Position"
+msgstr ""
+
+#: inc/to-redux.php:1217
+msgid "Select default feature image position for standard posts"
+msgstr ""
+
+#: inc/to-redux.php:1221 inc/to-redux.php:1242 inc/to-redux.php:1259
+#: inc/to-redux.php:1595 inc/to-redux.php:1612
+msgid "Basic"
+msgstr ""
+
+#: inc/to-redux.php:1225 inc/to-redux.php:1616
+msgid "Full Width"
+msgstr ""
+
+#: inc/to-redux.php:1229 inc/to-redux.php:1246 inc/to-redux.php:1263
+#: inc/to-redux.php:1488 inc/to-redux.php:1620
+msgid "Special"
+msgstr ""
+
+#: inc/to-redux.php:1237
+msgid "Gallery Position"
+msgstr ""
+
+#: inc/to-redux.php:1238
+msgid "Select default gallery position for gallery posts"
+msgstr ""
+
+#: inc/to-redux.php:1254
+msgid "Quote Position"
+msgstr ""
+
+#: inc/to-redux.php:1255
+msgid "Select default quote position for quote posts"
+msgstr ""
+
+#: inc/to-redux.php:1334
+msgid "Display Like/Dislike Button ( At the bottom of the post )"
+msgstr ""
+
+#: inc/to-redux.php:1335
+msgid "Show/Hide Like/Dislike Button"
+msgstr ""
+
+#: inc/to-redux.php:1341
+msgid "Display Post Tags"
+msgstr ""
+
+#: inc/to-redux.php:1342
+msgid "Show/Hide Post Tags"
+msgstr ""
+
+#: inc/to-redux.php:1348
+msgid "Display Social Sharing Buttons"
+msgstr ""
+
+#: inc/to-redux.php:1349
+msgid "Show/Hide Social Sharing Buttons"
+msgstr ""
+
+#: inc/to-redux.php:1355
+msgid "Display Post Navigation"
+msgstr ""
+
+#: inc/to-redux.php:1356
+msgid "Show/hide Post Navigation (Prev & Next post)"
+msgstr ""
+
+#: inc/to-redux.php:1362
+msgid "Display Author Info Box"
+msgstr ""
+
+#: inc/to-redux.php:1363
+msgid "Show/hide Author section in Single Post"
+msgstr ""
+
+#: inc/to-redux.php:1369
+msgid "Display Related Posts"
+msgstr ""
+
+#: inc/to-redux.php:1370
+msgid "Show/hide Related Posts section"
+msgstr ""
+
+#: inc/to-redux.php:1376
+msgid "Related Post Header Title"
+msgstr ""
+
+#: inc/to-redux.php:1377
+msgid "Enter Title for Related Posts section"
+msgstr ""
+
+#: inc/to-redux.php:1379 template-parts/single-post/content-footer.php:170
+msgid "Related posts"
+msgstr ""
+
+#: inc/to-redux.php:1384
+msgid "Related Posts - Query"
+msgstr ""
+
+#: inc/to-redux.php:1387 inc/to-redux.php:1501
+msgid "Querying posts from same Categories"
+msgstr ""
+
+#: inc/to-redux.php:1388 inc/to-redux.php:1502
+msgid "Querying posts from same Tags"
+msgstr ""
+
+#: inc/to-redux.php:1395
+msgid "Related Posts - Query With Post Format"
+msgstr ""
+
+#: inc/to-redux.php:1396
+msgid "When inside a video post it will only retrieve the video post"
+msgstr ""
+
+#: inc/to-redux.php:1402
+msgid "Related Posts - Order By"
+msgstr ""
+
+#: inc/to-redux.php:1406 inc/to-redux.php:1519
+msgid "Most Viewed"
+msgstr ""
+
+#: inc/to-redux.php:1407 inc/to-redux.php:1520
+msgid "Most Liked"
+msgstr ""
+
+#: inc/to-redux.php:1408 inc/to-redux.php:1521
+msgid "Random"
+msgstr ""
+
+#: inc/to-redux.php:1415
+msgid "Related Post - Count"
+msgstr ""
+
+#: inc/to-redux.php:1416
+msgid "Number of related posts"
+msgstr ""
+
+#: inc/to-redux.php:1423
+msgid "Post Comments"
+msgstr ""
+
+#: inc/to-redux.php:1424
+msgid "Enable/Disable Post Comments"
+msgstr ""
+
+#: inc/to-redux.php:1430
+msgid "Comment Type"
+msgstr ""
+
+#: inc/to-redux.php:1433
+msgid "WordPress Comment"
+msgstr ""
+
+#: inc/to-redux.php:1434
+msgid "Facebook Comment"
+msgstr ""
+
+#: inc/to-redux.php:1444
+msgid "Video Lightbox Settings"
+msgstr ""
+
+#: inc/to-redux.php:1451
+msgid "Display Video Lightbox Icon"
+msgstr ""
+
+#: inc/to-redux.php:1452
+msgid "Enable/Disable Video Lightbox"
+msgstr ""
+
+#: inc/to-redux.php:1458
+msgid "Display Video Title"
+msgstr ""
+
+#: inc/to-redux.php:1459
+msgid "Enable/Disable Video Title"
+msgstr ""
+
+#: inc/to-redux.php:1465
+msgid "Action"
+msgstr ""
+
+#: inc/to-redux.php:1468
+msgid "Gallery"
+msgstr ""
+
+#: inc/to-redux.php:1469
+msgid "HyperLink"
+msgstr ""
+
+#: inc/to-redux.php:1476
+msgid "Display Suggested Posts"
+msgstr ""
+
+#: inc/to-redux.php:1477
+msgid "Enable/Disable Suggested Posts on Lightbox"
+msgstr ""
+
+#: inc/to-redux.php:1484
+msgid "Suggested Post Layout"
+msgstr ""
+
+#: inc/to-redux.php:1498
+msgid "Suggested Posts - Query"
+msgstr ""
+
+#: inc/to-redux.php:1503
+msgid "Querying posts from same Playlist"
+msgstr ""
+
+#: inc/to-redux.php:1504
+msgid "Querying posts from same Series"
+msgstr ""
+
+#: inc/to-redux.php:1514
+msgid "Suggested Posts - Order By"
+msgstr ""
+
+#: inc/to-redux.php:1517
+msgid "Newest Items"
+msgstr ""
+
+#: inc/to-redux.php:1518
+msgid "Oldest Items"
+msgstr ""
+
+#: inc/to-redux.php:1522
+msgid "Preserve post ID order ( for the same Playlist and Series )"
+msgstr ""
+
+#: inc/to-redux.php:1523
+msgid "Title - Descending"
+msgstr ""
+
+#: inc/to-redux.php:1524
+msgid "Title - Ascending"
+msgstr ""
+
+#: inc/to-redux.php:1534 inc/to-redux.php:1546
+msgid "Suggested Posts - Count"
+msgstr ""
+
+#: inc/to-redux.php:1535 inc/to-redux.php:1547
+msgid "Number of suggested posts"
+msgstr ""
+
+#: inc/to-redux.php:1557
+msgid "Interactive"
+msgstr ""
+
+#: inc/to-redux.php:1560
+msgid "Open in Lightbox"
+msgstr ""
+
+#: inc/to-redux.php:1561
+msgid "Go To Post"
+msgstr ""
+
+#: inc/to-redux.php:1572
+msgid "Display Comments"
+msgstr ""
+
+#: inc/to-redux.php:1573
+msgid "Enable/Disable Comments on Lightbox"
+msgstr ""
+
+#: inc/to-redux.php:1583
+msgid "Single Video Settings"
+msgstr ""
+
+#: inc/to-redux.php:1590
+msgid "Style"
+msgstr ""
+
+#: inc/to-redux.php:1591
+msgid "Select single video style"
+msgstr ""
+
+#: inc/to-redux.php:1599
+msgid "Clean"
+msgstr ""
+
+#: inc/to-redux.php:1607
+msgid "Video Player Position"
+msgstr ""
+
+#: inc/to-redux.php:1608
+msgid "Select default video player position for video posts"
+msgstr ""
+
+#: inc/to-redux.php:1628
+msgid "Automatically apply elements"
+msgstr ""
+
+#: inc/to-redux.php:1631
+msgid "NO"
+msgstr ""
+
+#: inc/to-redux.php:1632
+msgid "Display Playlist"
+msgstr ""
+
+#: inc/to-redux.php:1633
+msgid "Display Series"
+msgstr ""
+
+#: inc/to-redux.php:1634
+msgid "Display Playlist & Series"
+msgstr ""
+
+#: inc/to-redux.php:1640
+msgid "Video Series Style"
+msgstr ""
+
+#: inc/to-redux.php:1643
+msgid "Inline"
+msgstr ""
+
+#: inc/to-redux.php:1644
+msgid "Dropdown"
+msgstr ""
+
+#: inc/to-redux.php:1645
+msgid "Grid"
+msgstr ""
+
+#: inc/to-redux.php:1651
+msgid "Auto Play"
+msgstr ""
+
+#: inc/to-redux.php:1652
+msgid ""
+"The videos automatically play for desktop users only, and are shown but "
+"require a tap to play for mobile users"
+msgstr ""
+
+#: inc/to-redux.php:1658
+msgid "Muted autoplay"
+msgstr ""
+
+#: inc/to-redux.php:1659
+msgid ""
+"Autoplay policy has changed on desktop browsers. You may need to use this "
+"option for the autoplay feature to work."
+msgstr ""
+
+#: inc/to-redux.php:1665
+msgid "Preview"
+msgstr ""
+
+#: inc/to-redux.php:1666
+msgid ""
+"Enabling this option helps users preview videos when hovering over featured "
+"image of video post on lists or archive pages. Note: This feature is only "
+"available for self-hosted videos, or video networks supported through API "
+"such as: Youtube, Vimeo, Twitch, Facebook, Dailymotion. It does not work with "
+"videos displayed with normal embedded mode."
+msgstr ""
+
+#: inc/to-redux.php:1672
+msgid "Minimize + Float Player on Scroll"
+msgstr ""
+
+#: inc/to-redux.php:1678
+msgid "Player"
+msgstr ""
+
+#: inc/to-redux.php:1679
+msgid "Select default player for video file"
+msgstr ""
+
+#: inc/to-redux.php:1682
+msgid "VidoRev Javascript Library"
+msgstr ""
+
+#: inc/to-redux.php:1683
+msgid "Fluid Player (with VAST)"
+msgstr ""
+
+#: inc/to-redux.php:1684
+msgid "JW Player"
+msgstr ""
+
+#: inc/to-redux.php:1685
+msgid "Videojs HTML5 Player"
+msgstr ""
+
+#: inc/to-redux.php:1686
+msgid "FV Flowplayer Video Player"
+msgstr ""
+
+#: inc/to-redux.php:1692
+msgid "[Player] PLYR for Youtube & Vimeo"
+msgstr ""
+
+#: inc/to-redux.php:1701
+msgid "[Player] Automatically identify MP4 and M3U8 files"
+msgstr ""
+
+#: inc/to-redux.php:1703
+msgid ""
+"This is an auxiliary feature for two player libraries: FluidPlayer and "
+"VidoRev Javascript Library. It will automatically identify the links and "
+"select the appropriate player without having to manually select from the post "
+"editing section."
+msgstr ""
+
+#: inc/to-redux.php:1711
+msgid "[JWPLAYER] Cloud Player Library Url"
+msgstr ""
+
+#: inc/to-redux.php:1712
+msgid "You can use a cloud or a self hosted library"
+msgstr ""
+
+#: inc/to-redux.php:1713
+msgid "No library selected"
+msgstr ""
+
+#: inc/to-redux.php:1720
+msgid "[JWPLAYER] Licence Key"
+msgstr ""
+
+#: inc/to-redux.php:1721
+msgid "Self hosted player? Please, add your JW Player license key"
+msgstr ""
+
+#: inc/to-redux.php:1726
+msgid "[Youtube] Google API Key"
+msgstr ""
+
+#: inc/to-redux.php:1727
+msgid "Fill your Google API key to fetch data from Youtube"
+msgstr ""
+
+#: inc/to-redux.php:1732
+msgid "[Vimeo] Client Identifier"
+msgstr ""
+
+#: inc/to-redux.php:1733 inc/to-redux.php:1739 inc/to-redux.php:1745
+msgid "Optional: Only required for accessing private VIMEO videos"
+msgstr ""
+
+#: inc/to-redux.php:1738
+msgid "[Vimeo] Client Secrets"
+msgstr ""
+
+#: inc/to-redux.php:1744
+msgid "[Vimeo] Personal Access Tokens"
+msgstr ""
+
+#: inc/to-redux.php:1750
+msgid "[Twitch] Client ID"
+msgstr ""
+
+#: inc/to-redux.php:1751
+msgid "Fill your Twitch Client ID to fetch data from Twitch"
+msgstr ""
+
+#: inc/to-redux.php:1756
+msgid "[Twitch] Client Secret"
+msgstr ""
+
+#: inc/to-redux.php:1757
+msgid "Fill your Twitch Client Secret to fetch data from Twitch"
+msgstr ""
+
+#: inc/to-redux.php:1762
+msgid "[Facebook] App ID"
+msgstr ""
+
+#: inc/to-redux.php:1763
+msgid "Fill your Facebook App ID to fetch data from Facebook"
+msgstr ""
+
+#: inc/to-redux.php:1768
+msgid "[Facebook] App Secret"
+msgstr ""
+
+#: inc/to-redux.php:1769
+msgid "Fill your Facebook App Secret to fetch data from Facebook"
+msgstr ""
+
+#: inc/to-redux.php:1774
+msgid "IMDb User ID"
+msgstr ""
+
+#: inc/to-redux.php:1775
+msgid "Fill your IMDb ID to fetch data from IMDb ratings plugin"
+msgstr ""
+
+#: inc/to-redux.php:1780
+msgid "Show More Button"
+msgstr ""
+
+#: inc/to-redux.php:1786
+msgid "Login to watch the video"
+msgstr ""
+
+#: inc/to-redux.php:1792
+msgid "Fetching Data"
+msgstr ""
+
+#: inc/to-redux.php:1798
+msgid "Fetch Video Title"
+msgstr ""
+
+#: inc/to-redux.php:1804
+msgid "Fetch Video Description"
+msgstr ""
+
+#: inc/to-redux.php:1810
+msgid "Fetch Video Tags"
+msgstr ""
+
+#: inc/to-redux.php:1816
+msgid "Fetch Video Duration"
+msgstr ""
+
+#: inc/to-redux.php:1822
+msgid "Fetch Video View Count"
+msgstr ""
+
+#: inc/to-redux.php:1828
+msgid "Fetch Video Like Count"
+msgstr ""
+
+#: inc/to-redux.php:1834
+msgid "Fetch Video Dislike Count"
+msgstr ""
+
+#: inc/to-redux.php:1840
+msgid "Fetch Video Comment Count"
+msgstr ""
+
+#: inc/to-redux.php:1846
+msgid "Fetch Video Thumbnail"
+msgstr ""
+
+#: inc/to-redux.php:1852
+msgid "Fetching data when accessing video posts"
+msgstr ""
+
+#: inc/to-redux.php:1864
+msgid "Elements"
+msgstr ""
+
+#: inc/to-redux.php:1926
+msgid "Main-Toolbar"
+msgstr ""
+
+#: inc/to-redux.php:1932
+msgid "Main-toolbar"
+msgstr ""
+
+#: inc/to-redux.php:1947
+msgid "Like Button"
+msgstr ""
+
+#: inc/to-redux.php:1956
+msgid "Dislike Button"
+msgstr ""
+
+#: inc/to-redux.php:1965
+msgid "Watch Later Button"
+msgstr ""
+
+#: inc/to-redux.php:1974
+msgid "Share Button"
+msgstr ""
+
+#: inc/to-redux.php:1983
+msgid "Iframe Video"
+msgstr ""
+
+#: inc/to-redux.php:2001
+msgid "Comments Count / Files Download"
+msgstr ""
+
+#: inc/to-redux.php:2002
+msgid ""
+"If the video allows downloading the file, the download button will replace "
+"the comment button."
+msgstr ""
+
+#: inc/to-redux.php:2011
+msgid "Theater Mode"
+msgstr ""
+
+#: inc/to-redux.php:2026
+msgid "Sub-Toolbar"
+msgstr ""
+
+#: inc/to-redux.php:2032
+msgid "Sub-toolbar"
+msgstr ""
+
+#: inc/to-redux.php:2038
+msgid "Like/DisLike/View Block"
+msgstr ""
+
+#: inc/to-redux.php:2047
+msgid "Facebook Like/Share"
+msgstr ""
+
+#: inc/to-redux.php:2056
+msgid "Report Button"
+msgstr ""
+
+#: inc/to-redux.php:2065
+msgid "Repeat Button"
+msgstr ""
+
+#: inc/to-redux.php:2074
+msgid "Lightbox Button"
+msgstr ""
+
+#: inc/to-redux.php:2083
+msgid "Donate Button"
+msgstr ""
+
+#: inc/to-redux.php:2085
+msgid ""
+"You will need to install <a href=\"https://wordpress.org/plugins/paypal-"
+"donations/\" target=\"_blank\">PayPal Donations</a> plugin."
+msgstr ""
+
+#: inc/to-redux.php:2097
+msgid "Prev Button"
+msgstr ""
+
+#: inc/to-redux.php:2106
+msgid "Next Button"
+msgstr ""
+
+#: inc/to-redux.php:2115
+msgid "More Videos Button"
+msgstr ""
+
+#: inc/to-redux.php:2124
+msgid "Subscribe Button"
+msgstr ""
+
+#: inc/to-redux.php:2133
+msgid "Add Playlist Button"
+msgstr ""
+
+#: inc/to-redux.php:2149 inc/to-redux.php:2155
+msgid "User Rating"
+msgstr ""
+
+#: inc/to-redux.php:2156
+msgid ""
+"Turn On/Off user rating. You will need to install Yasr – Yet Another Stars "
+"Rating plugin"
+msgstr ""
+
+#: inc/to-redux.php:2162
+msgid "Where?"
+msgstr ""
+
+#: inc/to-redux.php:2165
+msgid "Before the post"
+msgstr ""
+
+#: inc/to-redux.php:2166
+msgid "After the post"
+msgstr ""
+
+#: inc/to-redux.php:2175
+msgid "Rating Mode"
+msgstr ""
+
+#: inc/to-redux.php:2176
+msgid "Select default rating mode for video posts"
+msgstr ""
+
+#: inc/to-redux.php:2179
+msgid "Single"
+msgstr ""
+
+#: inc/to-redux.php:2198
+msgid "Watch Later Settings"
+msgstr ""
+
+#: inc/to-redux.php:2206
+msgid "Enable/Disable Watch Later Function"
+msgstr ""
+
+#: inc/to-redux.php:2212
+msgid "Watch Later Listing Sidebar"
+msgstr ""
+
+#: inc/to-redux.php:2213
+msgid ""
+"Select \"Default\" to use settings in Theme Options > Single Page Settings"
+msgstr ""
+
+#: inc/to-redux.php:2227
+msgid "Watch Later Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2228
+msgid "Select Watch Later Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2274
+msgid "Watch Later Page"
+msgstr ""
+
+#: inc/to-redux.php:2275
+msgid ""
+"This sets the base your \"watch later page\". This is the page that will "
+"display the video listings you want to view later."
+msgstr ""
+
+#: inc/to-redux.php:2293
+msgid "Author Settings"
+msgstr ""
+
+#: inc/to-redux.php:2314
+msgid "Author Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2315
+msgid "Select Author Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2361 inc/to-redux.php:2450
+msgid ""
+"Choose type of navigation for search page. For WP PageNavi, you will need to "
+"install WP PageNavi plugin"
+msgstr ""
+
+#: inc/to-redux.php:2373
+msgid "Author Slug"
+msgstr ""
+
+#: inc/to-redux.php:2374
+msgid ""
+"Change Author slug. Remember to save the permalink settings again in Settings "
+"> Permalinks"
+msgstr ""
+
+#: inc/to-redux.php:2382
+msgid "Search Settings"
+msgstr ""
+
+#: inc/to-redux.php:2403
+msgid "Search Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2404
+msgid "Select Search Loop Style"
+msgstr ""
+
+#: inc/to-redux.php:2462
+msgid "Exclude Pages from Search Results"
+msgstr ""
+
+#: inc/to-redux.php:2468
+msgid "Search Video Posts Only"
+msgstr ""
+
+#: inc/to-redux.php:2477
+msgid "404 Page Not Found"
+msgstr ""
+
+#: inc/to-redux.php:2484
+msgid "404 Image"
+msgstr ""
+
+#: inc/to-redux.php:2485
+msgid "Upload your image for 404 Page"
+msgstr ""
+
+#: inc/to-redux.php:2493
+msgid "404 Content"
+msgstr ""
+
+#: inc/to-redux.php:2494
+msgid "Content of Page Not Found"
+msgstr ""
+
+#: inc/to-redux.php:2499
+msgid "Back Button Text"
+msgstr ""
+
+#: inc/to-redux.php:2500
+msgid "Text for \"Back to homepage\" button"
+msgstr ""
+
+#: inc/to-redux.php:2508
+msgid "Ads"
+msgstr ""
+
+#: inc/to-redux.php:2515
+msgid "Header Ad Slot"
+msgstr ""
+
+#: inc/to-redux.php:2516
+msgid "This ad will be displayed in website header."
+msgstr ""
+
+#: inc/to-redux.php:2517
+msgid ""
+"Note: If you want to paste HTML or js code, use \"text\" mode in editor. "
+"Suggested size of an ad banner is 728x90"
+msgstr ""
+
+#: inc/to-redux.php:2526
+msgid "[Mobile] Header Ad Slot"
+msgstr ""
+
+#: inc/to-redux.php:2527
+msgid "This ad will be displayed in website header on Mobile Devices."
+msgstr ""
+
+#: inc/to-redux.php:2528
+msgid "Note: If you want to paste HTML or js code, use \"text\" mode in editor."
+msgstr ""
+
+#: inc/to-redux.php:2537
+msgid "Above Footer"
+msgstr ""
+
+#: inc/to-redux.php:2538
+msgid "This ad will be displayed between your footer and website content"
+msgstr ""
+
+#: inc/to-redux.php:2539 inc/to-redux.php:2550 inc/to-redux.php:2561
+#: inc/to-redux.php:2591 inc/to-redux.php:2602
+msgid ""
+"Note: If you want to paste HTML or JavaScript code, use \"text\" mode in "
+"editor"
+msgstr ""
+
+#: inc/to-redux.php:2548
+msgid "Above Single Post Content"
+msgstr ""
+
+#: inc/to-redux.php:2549
+msgid ""
+"This ad will be displayed above post content on your single post templates"
+msgstr ""
+
+#: inc/to-redux.php:2559
+msgid "Below Single Post Content"
+msgstr ""
+
+#: inc/to-redux.php:2560
+msgid ""
+"This ad will be displayed below post content on your single post templates"
+msgstr ""
+
+#: inc/to-redux.php:2570
+msgid "Between Posts"
+msgstr ""
+
+#: inc/to-redux.php:2571
+msgid ""
+"This ad will be displayed between posts on archive templates such as category "
+"archives, tag archives etc..."
+msgstr ""
+
+#: inc/to-redux.php:2572
+msgid ""
+"You will probably not see ads in some unsupported layouts. Note: If you want "
+"to paste HTML or JavaScript code, use \"text\" mode in editor."
+msgstr ""
+
+#: inc/to-redux.php:2581
+msgid "Ad Between Posts Offset"
+msgstr ""
+
+#: inc/to-redux.php:2582
+msgid "Ads appear position, Ex: 1, 3, 5..."
+msgstr ""
+
+#: inc/to-redux.php:2589
+msgid "Above Video Player"
+msgstr ""
+
+#: inc/to-redux.php:2590
+msgid ""
+"This ad will be displayed above video player on your single post templates"
+msgstr ""
+
+#: inc/to-redux.php:2600
+msgid "Above Channel"
+msgstr ""
+
+#: inc/to-redux.php:2601
+msgid ""
+"This ad will be displayed above content on your Single Channel/Channel Listing"
+msgstr ""
+
+#: search.php:31
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/content-list-blog.php:41
+msgid "Continue reading"
+msgstr ""
+
+#: template-parts/content-list-default.php:13
+msgid "Sticky post"
+msgstr ""
+
+#: template-parts/content-none.php:7
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching "
+"can help."
+msgstr ""
+
+#: template-parts/content-page.php:7
+#: template-parts/single-post/content-audio.php:8
+#: template-parts/single-post/content-quote.php:9
+#: template-parts/single-post/content.php:18
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:17
+msgid "Edit Page"
+msgstr ""
+
+#: template-parts/single-post/content-audio.php:18
+#: template-parts/single-post/content-quote.php:19
+#: template-parts/single-post/content.php:35
+msgid "Edit Post"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:35
+msgid "Tags"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:49
+msgid "Previous Post"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:50
+msgid "Next Post"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:65
+msgid "Previous Playlist"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:66
+msgid "Next Playlist"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:70
+msgid "Previous Channel"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:71
+msgid "Next Channel"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:75
+msgid "Previous Series"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:76
+msgid "Next Series"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:172
+msgid "Related videos"
+msgstr ""
+
+#: template-parts/single-post/content-footer.php:275
+msgid "RELATED POSTS"
+msgstr ""
+
+#: template-parts/vidorev-footer.php:27
+msgid "Copyright &copy; 2018. Created by BeeTeam368. Powered by WordPress"
+msgstr ""

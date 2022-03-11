@@ -1,0 +1,1243 @@
+@import "../variables-site/variables-site";
+@import "../mixins/mixins-master";
+
+body.buddypress{
+
+	.youzify{
+		a{
+			text-decoration:none;
+		}
+		.youzify-page-main-content{
+			padding-top:40px;
+			padding-bottom:60px;
+		}
+
+		.youzify-hdr-v1 .youzify-cover-content .youzify-inner-content,
+		.youzify-hdr-v2 .youzify-cover-content,
+		.youzify-hdr-v6 .youzify-cover-content .youzify-inner-content,
+		.youzify-hdr-v7 .youzify-cover-content{
+			z-index: 6;
+		}
+
+		.youzify-hdr-v1 .youzify-cover-content .youzify-inner-content, 
+		#youzify-profile-navmenu .youzify-inner-content, 
+		&.youzify-vertical-layout .youzify-content, 
+		.youzify-boxed-navbar, 
+		.wild-content, 
+		.youzify-page-main-content, 
+		.youzify-header-content, 
+		.youzify-cover-content{
+			margin-left: auto;
+			margin-right: auto;
+
+			width:100%;
+
+			@media (min-width: 576px) {
+				width: 510px;
+				max-width: 100%;		
+			}
+
+			@media (min-width: 768px) {
+				width: 690px;
+				max-width: 100%;
+			}
+
+			@media (min-width: 992px) {
+				width: 930px;
+				max-width: 100%;
+			}
+
+			@media (min-width: 1200px) {
+				width: 1140px;
+				max-width: 100%;
+			}
+
+			@media(max-width:768px){
+				padding-left:0;
+				padding-right:0;
+			}
+		}
+		
+		@media(min-width:769px) and (max-width:991px){
+
+			.youzify-hdr-v1 .youzify-cover-content{
+				.youzify-inner-content{
+					left:50%;
+					margin-left:-345px;
+				}				
+				.youzify-user-statistics{
+					padding-right:0;
+				}
+			}
+			
+		}
+
+		@media screen and (max-width: 1170px) and (min-width: 769px){
+			.youzify-cover-content{
+				padding-left:0;
+				padding-right:0;
+			}
+
+			#youzify-profile-navmenu.youzify-boxed-navbar{
+				margin-left:auto;
+				margin-right:auto;
+			}
+			.youzify-hdr-v1 .youzify-cover-content .youzify-user-statistics,
+			.youzify-hdr-v2 .youzify-user-statistics,
+			.youzify-hdr-v7 .youzify-user-statistics{
+				padding-right:0;
+			}
+
+			&.youzify-vertical-layout .youzify-profile-sidebar {
+    			margin-top: 0;
+			}
+		}
+
+		@media(max-width:768px){
+			#youzify-profile-navmenu .youzify-settings-area, 
+			#youzify-profile-navmenu .youzify-social-buttons{
+				right:0;
+			}
+		}
+
+		.youzify-responsive-menu{
+			left:0;
+		}
+
+		.youzify-page-main-content{
+			padding-left:0;
+			padding-right:0;
+			@media(max-width:575px){
+				padding-left:15px;
+				padding-right:15px;
+			}
+		}
+
+		&.youzify-horizontal-layout{
+			.youzify-page-main-content{
+				padding-left:0;
+				padding-right:0;
+				@media(max-width:575px){
+					padding-left:15px;
+					padding-right:15px;
+				}
+			}
+		}
+
+		@media(max-width:768px){
+			#youzify-profile-navmenu{
+				padding-left:15px;
+				padding-right:15px;
+			}
+		}
+
+		.youzify-responsive-menu{
+			background:none !important;
+			min-width:0 !important;
+			padding:0 !important;
+			height:20px;
+		}		
+
+		.youzify-directory-filter{
+			margin-left:0;
+			margin-right:0;
+		}
+
+		&.youzify-vertical-layout{
+			.youzify-page-main-content{
+				padding-top:0;
+				padding-bottom:0;
+			}
+			.youzify-boxed-navbar .youzify-profile-navmenu{
+				margin-left:0;
+			}
+			.youzify-content{
+				padding-top:40px;
+			}
+
+			#youzify-profile-navmenu{
+				margin-bottom:40px;
+				.youzify-inner-content{
+					padding-left:0;
+					width:100%;
+				}
+			}			
+
+			@media screen and (max-width: 1170px) and (min-width: 769px){
+				.youzify-content{
+					padding-left:0;
+					padding-right:0;
+				}				
+			}
+
+			@media(max-width:768px){
+				padding-left:0;
+				padding-right:0;
+				&:not(.youzify-vertical-wild-navbar) .youzify-nav-settings{
+					margin-right:0;
+				}
+			}
+
+			@media(max-width:575px){
+				padding-left:15px;
+				padding-right:15px;
+				.youzify-page-main-content{
+					padding-left:0;
+					padding-right:0;
+				}
+			}
+		}
+
+		@media(max-width:991px){
+
+			.youzify-3columns-layout, 
+			.youzify-left-sidebar-layout, 
+			.youzify-right-sidebar-layout{
+				display:block;
+			}
+
+			&.youzify-horizontal-layout{
+				.youzify-main-column,
+				.youzify-sidebar-column{
+					width:100%;
+					.youzify-column-content{
+						margin-left:0;
+						margin-right:0;
+					}
+				}
+			}
+			&.youzify-vertical-layout{
+				#youzify-profile-header, 
+				.youzify-profile-sidebar,
+				.youzify-profile-content{
+					width:100%;	
+					max-width:100%;				
+				}
+
+				.youzify-profile-content{
+					.youzify-inner-content{
+						padding-left:0;
+						padding-right:0;
+					}
+				}
+				#youzify-profile-header{
+					margin-bottom:35px;
+				}
+			}			
+		}
+
+		#youzify-members-list,
+		#youzify-groups-list{
+			margin-left:-17.5px;
+			margin-right:-17.5px;
+			@media(max-width:991px){
+				li{
+					width:50%;
+					.youzify-user-data{
+						margin-left:17.5px;
+						margin-right:17.5px;
+					}
+				}
+			}
+
+			@media(max-width:767px){
+				margin-left:0;
+				margin-right:0;
+				li{
+					width:100%;
+					margin-left:0;
+					margin-right:0;			
+
+					.youzify-user-data{
+						margin-left:0;
+						margin-right:0;
+					}			
+				}
+			}
+		}
+
+		#members-group-list,
+		.members.friends,
+		.members.follows{
+			#youzify-members-list{
+				margin-left:0;
+				margin-right:0;
+			}
+		}
+
+		#youzify-groups-list{
+			width:auto;
+			max-width:none;
+		}
+
+		.groups.mygroups{
+			#youzify-groups-list{
+				margin-left:0;
+				margin-right:0;
+				li{
+					width:100%;
+				}
+				line-height:1.8;				
+			}
+		}
+
+		#youzify-groups-list.invites.item-list{
+			margin-left:0;
+			margin-right:0;
+			li{
+				width:100%;
+			}			
+			line-height:1.8;			
+		}
+
+		#bbpress-forums ul.bbp-lead-topic, 
+		#bbpress-forums ul.bbp-topics, 
+		#bbpress-forums ul.bbp-forums, 
+		#bbpress-forums ul.bbp-replies, 
+		#bbpress-forums ul.bbp-search-results{
+			background-color:#FFFFFF;
+		}
+
+		#bbpress-forums p.bbp-topic-meta img.avatar, 
+		#bbpress-forums ul.bbp-reply-revision-log img.avatar, 
+		#bbpress-forums ul.bbp-topic-revision-log img.avatar, 
+		#bbpress-forums div.bbp-template-notice img.avatar, 
+		#bbpress-forums .widget_display_topics img.avatar, 
+		#bbpress-forums .widget_display_replies img.avatar{
+			display:inline;
+		}
+		#bbp-user-topics-started > h2.entry-title{
+			display:none;
+		}
+
+		+.site-footer .popular-video-footer{
+			padding-top:60px;
+		}
+
+		#bbpress-forums{
+			#bbp-topic-search-form{
+				display: block;
+				position: relative;
+			}
+
+			.bbp-search-form #ts{
+				padding: 11px 120px 10px 20px;
+			}
+
+			.bbp-search-form #bbp_search_submit{
+				position: absolute;
+				top: 2px;
+				bottom:2px;
+				right:2px;
+				left: auto;
+				min-width: 0;
+			}
+		}
+
+	}
+
+	#youzify-wall-nav .nice-select, 
+	div.item-list-tabs .nice-select, 
+	div.item-list-tabs .youzify-bar-select{
+		min-width:180px;
+	}
+
+	.item-list-tabs li select{
+		display:inline-block;
+		height:40px;
+		line-height:40px;
+	}
+
+	.youzify-tools-only-icons .youzify-tool-btn{
+		line-height:1;
+	}
+
+	.youzify-infos-content .youzify-info-data, 
+	.youzify-infos-content .youzify-info-data a, 
+	.youzify-infos-content .youzify-info-label{
+		vertical-align:middle;
+	}
+
+	#send_message_form .youzify-cs-checkbox-field .youzify_field_indication:after{
+		top:5px;
+		left:7px;
+	}
+
+	.youzify-sidebar [class*="widget_bp_core_"],
+	.youzify-sidebar .widget-mycred-list{
+		ul, ol {
+			line-height:1.38;
+		}
+	}
+
+	.youzify-recent-posts .youzify-post-item{
+		padding:20px 35px;
+	}
+
+	#youzify-profile-navmenu{
+		z-index:2;
+	}
+
+	.youzify-tab.youzify-custom .blog-wrapper{
+		padding:20px;
+		background-color:#FFFFFF;
+		@include border-radius(4px);
+		margin-bottom:20px;
+		.blog-items{
+			.post-item{
+				width:33.33333333%;
+				@media(max-width:767px){
+					width:50%;
+				}
+				@media(max-width:575px){
+					width:100%;
+				}
+				line-height:1.8;
+			}
+			.post-title{
+				line-height:1.35;
+			}
+		}
+
+		&.bd-wrapper-playlists,
+		&.bd-wrapper-channels{
+			.blog-items{
+				.post-item{
+					width:50%;
+					@media(max-width:767px){
+						width:100%;
+					}
+					@media(max-width:575px){
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+
+	.youzify-user-badges-tab{
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	.youzify-user-badges-tab .youzify-user-badge-item{
+		width:calc( 25% - 31px );
+		width:-webkit-calc( 25% - 31px );
+		width:-moz-calc( 25% - 31px );
+		width:-ms-calc( 25% - 31px );
+		margin:0 15px 30px 15px;
+
+		@media(max-width:1024px){
+			width:calc( 33.33333333% - 31px );
+			width:-webkit-calc( 33.33333333% - 31px );
+			width:-moz-calc( 33.33333333% - 31px );
+			width:-ms-calc( 33.33333333% - 31px );
+		}
+
+		@media(max-width:768px){
+			width:calc( 50% - 31px );
+			width:-webkit-calc( 50% - 31px );
+			width:-moz-calc( 50% - 31px );
+			width:-ms-calc( 50% - 31px );
+		}
+	}
+	
+	.bp-widget.group-members-list{
+		ul, ol{
+			line-height:1.8;
+		}
+
+		.item .item-meta{
+			padding-top:0;
+			padding-bottom:0;
+		}
+	}
+
+	.youzify-user-ratings-details{
+		z-index:5;
+	}
+	.youzify-tools{
+		z-index:5;
+	}
+
+	.youzify .activity-list li.load-more a, 
+	.youzify .activity-list li.load-newest a{
+		padding:10px 20px;
+	}
+
+
+	.youzify-wp-widget-box a:before,
+	.youzify-delete-item:before,
+	.youzify-edit-item:before,
+	.youzify-hide-wg:before,
+	a.button:before,
+	.group-button a:before,
+	.message-button a:before,
+	.follow-button a:before,
+	.friendship-button a:before,
+	.widget_display_topics li:before,
+	.widget_display_forums li a:before,
+	.bp-site-wide-message strong:before,
+	.widget-content .widget-title:before,
+	.activity-list li.load-newest a:before,
+	.widget_display_views li .bbp-view-title:before,
+	.widget_bp_core_login_widget .bp-login-widget-user-logout a:before,
+	.youzify-account-page .youzify-delete-item:before,
+	.editfield label .field-visibility-text:before,
+	#bbpress-forums div.bbp-breadcrumb .bbp-breadcrumb-current a:before,
+	#bbpress-forums div.bbp-breadcrumb a.bbp-breadcrumb-home:before,
+	.bbp-header .bbp-reply-content #subscription-toggle a:before,
+	.bbp-header .bbp-reply-content #favorite-toggle a:before,
+	span.bbp-admin-links a:before,
+	#avatar-crop-actions .avatar-crop-submit:before,
+	#bp-delete-cover-image:before,
+	#bp-delete-avatar:before,
+	.youzify-directory-filter #directory-show-search a:before,
+	.youzify-directory-filter .item-list-tabs li a:before,
+	#youzify-groups-list .action .group-button a:before,
+	.youzify-group-navmenu a:before,
+	.group-request-list .action a:before,
+	#group-settings-form #avatar-crop-actions a.avatar-crop-submit:before,
+	#group-settings-form #bp-delete-cover-image:before,
+	#group-settings-form #bp-delete-avatar:before,
+	.youzify-rate-user > label:before,
+	#sitewide-notice strong:before,
+	div.item-list-tabs a:before,
+	#friend-list .action a:before,
+	.activity-meta a:before,
+	.activity-comments li.show-all a:before,
+	.acomment-options a:before{
+		font-weight:900;
+	}
+
+	font-family: $font__main;
+
+	.youzify,
+	.youzify a,
+	.youzify p,
+	.youzify input[type="text"],
+	#youzify input[type="text"]{
+		font-family: $font__main;
+	}
+
+	.youzify-reset-options, .youzify-save-options{
+		padding:12px 20px !important;
+	}
+
+	.widget_bp_core_sitewide_messages .bp-site-wide-message button,
+	.youzify-main-content .wp-picker-container .wp-picker-clear,
+	.youzify-main-content .wp-picker-container .wp-color-picker,
+	.widget_bp_core_members_widget .item-options a,
+	.youzify-membership-form .youzify-membership-form-cover .form-cover-title,
+	.uk-upload-photo .uk-upload-button,
+	.youzify-membership-form-item .youzify-membership-item-content label,
+	.youzify-membership-social-buttons .youzify-membership-social-title,,
+	.youzify-tool-btn .youzify-tool-name,
+	.youzify-membership-social-buttons li a,
+	.youzify-membership-form-actions button,
+	.youzify-membership-form .form-title h2,
+	.youzify-user-statistics li h3,
+	.youzify-membership-forgot-password,
+	.youzify-head-content h2,
+	.youzify-head-content h3,
+	.youzify-membership-link-button,
+	#sitewide-notice #message button,
+	.youzify-reset-options,
+	.youzify-save-options,
+	.uk-msg-head h3,
+	.youzify-hdr-v1 .youzify-name h2,
+	.youzify-hdr-v2 .youzify-name h2,
+	.youzify-hdr-v3 .youzify-name h2,
+	.youzify-hdr-v6 .youzify-name h2,
+	.youzify-hdr-v7 .youzify-name h2,
+	.settings-inner-content .options-section-title h2,
+	.settings-sidebar .account-menus ul li a,
+	.youzify-cphoto-options .youzify-upload-photo,
+	.settings-sidebar .account-menus h2,
+	.youzify-account-header ul li a,
+	.action-button,
+	.youzify-account-head h2,
+	.youzify-item-button,
+	.youzify-no-content,
+	#youzify-directory-search-box form input[type=submit],
+	#youzify-members-list .youzify-user-actions a,
+	#youzify-groups-list .item .item-title a,
+	#youzify-members-list .youzify-fullname,
+	#youzify-groups-list .action a,
+	#send-invite-form .submit input,
+	.group-members #search-members-form label input,
+	.group-members #search-members-form #members_search_submit,
+	.youzify-recent-posts .youzify-post-head .youzify-post-title a,
+	.youzify-wg-networks.youzify-icons-full-width li a,
+	.youzify-profile-navmenu .youzify-navbar-item a,
+	.youzify-project-content .youzify-project-title,
+	.youzify-tab-comment .youzify-comment-fullname,
+	.youzify-post-content .youzify-post-title a,
+	.youzify-video-head .youzify-video-title,
+	.youzify-tab-post .youzify-post-title a,
+	.youzify-widget .youzify-widget-title,
+	.youzify-box-head .youzify-box-title,
+	.pagination .page-numbers,
+	.youzify-project-type,
+	.youzify-quote-owner,
+	.youzify-box-404 h2,
+	.youzify-post-type,
+	.youzify-item-title,
+	.uk-option-item label,
+	.youzify-items-list-widget .youzify-list-item a.youzify-item-name,
+	div.item-list-tabs li a,
+	.youzify-pagination .youzify-nav-links .page-numbers, 
+	.youzify-pagination .youzify-pagination-pages,
+	.youzify-modal .uk-option-item .option-title,	
+	.youzify-infos-content .youzify-info-label,
+	.youzify-msg-form-item label,
+	.members.friends #youzify-members-list .item .item-title a,
+	#youzify-group-buttons .group-button a,
+	.youzify-wall-embed .youzify-embed-name,
+	.youzify-item-tool .youzify-tool-name,
+	.activity-meta a,
+	#whats-new-post-in-box label,
+	.youzify-sidebar .widget-content .widget-title,
+	.widget_bp_core_members_widget #members-list .vcard .item-title a, 
+	.widget_bp_groups_widget #groups-list li .item-title a,
+	.myCRED-leaderboard .youzify-leaderboard-username,
+	.widget_bp_core_members_widget .item-options a, 
+	.widget_bp_groups_widget .item-options a,
+	#friend-list.item-list .item .item-title a,
+	#friend-list.item-list .action a, 
+	#youzify-members-list .youzify-user-actions a,
+	#youzify-wall-nav li a,
+	.youzify-uploader-change-item h2,
+	.avatar-nav-items li a,
+	#bp-delete-avatar, 
+	#bp-delete-cover-image,
+	.editfield fieldset legend,
+	.editfield .field-visibility-settings-notoggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .visibility-toggle-link,
+	.option-content .youzify-upload-photo,
+	.youzify-directory-filter .item-list-tabs li label, 
+	.youzify-directory-filter .item-list-tabs li#members-order-select label,
+	.youzify-review-item .youzify-head-meta .youzify-item-name a,
+	.youzify-user-balance-box .youzify-box-head,
+	.youzify-profile-sidebar .youzify-aboutme-description,	
+	.youzify-aboutme-name,
+	.youzify-tab-post .youzify-read-more,
+	.youzify-wall-embed .youzify-embed-action .friendship-button a, 
+	.youzify-wall-embed .youzify-embed-action .group-button a, 
+	.youzify-wall-embed .youzify-embed-action .message-button .youzify-send-message,
+	.groups.mygroups #youzify-groups-list .item .item-title a,
+	.youzify-tab-title-box .youzify-tab-title-content h2,
+	&.mycred-history #buddypress.youzify .mycred-table tfoot th, 
+	&.mycred-history #buddypress.youzify .mycred-table thead th,
+	&.follows .youzify #youzify-members-list .item .item-title a, 
+	&.my-friends .youzify #youzify-members-list .item .item-title a,
+	.youzify-user-badges-tab .youzify-user-badge-item .youzify-user-badge-title,
+	#youzify-profile-navmenu .youzify-settings-menu a span,
+	.youzify-group-navmenu li a,
+	.youzify-rating-show-more,
+	.youzify-profile-list-widget .youzify-more-items a,
+
+	#group-settings-form .radio label, 
+	#group-settings-form label, 
+	.youzify-group-settings-tab .radio label, 
+	.youzify-group-settings-tab label,
+	.youzify .group-members-list .item .item-title a,
+	&.my-groups .youzify #youzify-groups-list .action a,
+	&.my-groups .youzify #youzify-groups-list .item .item-title a,
+	.youzify-directory-filter #directory-show-search a, 
+	.youzify-directory-filter .item-list-tabs li a,
+	.youzify-social-buttons .follow-button a, 
+	.youzify-social-buttons .friendship-button a, 
+	.youzify-social-buttons .message-button a,
+	.youzify .activity-list li.load-more a, 
+	.youzify .activity-list li.load-newest a,
+	.youzify-media-filter .youzify-filter-item .youzify-filter-content span{
+		font-family: $font__heading;		
+		font-weight: $font__heading-weight;		
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+	}
+
+	button,
+	input[type="submit"],
+	.youzify input[type="submit"],
+	#youzify input[type="submit"],
+	#youzify-directory-search-box form input[type=submit],
+	.youzify-reset-options,
+	.youzify-save-options,
+	#send_message_form .submit #send,
+	.item-list-tabs #search-message-form #messages_search_submit,
+	#send-reply #send_reply_button,
+	#bp-browse-button,
+
+	#group-settings-form .youzify-group-submit-form #group-creation-previous, 
+	#group-settings-form input[type=submit], 
+	#send-invite-form .submit input, 
+	.youzify-group-settings-tab .youzify-group-submit-form #group-creation-previous, 
+	.youzify-group-settings-tab input[type=submit],
+	.youzify-group-manage-members-search #members_search_submit,
+	.youzify-group-settings-tab .youzify-group-submit-form input
+	{
+		font-family: $font__heading;
+		font-size: $h7_font_size;
+		font-weight: $font__weight-extra;
+		line-height: $font__heading-line-height;	
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+		text-transform:uppercase;
+		@include border-radius(0);
+		height:auto;
+		padding: 12px 20px 12px 20px;
+	}
+
+	.youzify-item-button{
+		font-weight: $font__weight-extra;
+		text-transform:uppercase;
+		@include border-radius(0);
+
+	}
+
+	/*12px*/
+	.widget_bp_core_sitewide_messages .bp-site-wide-message button,
+	.youzify-main-content .wp-picker-container .wp-picker-clear,
+	.youzify-main-content .wp-picker-container .wp-color-picker,
+	.widget_bp_core_members_widget .item-options a,
+	.uk-upload-photo .uk-upload-button,
+	#sitewide-notice #message button,
+	.youzify-cphoto-options .youzify-upload-photo,
+	#youzify-directory-search-box form input[type=submit],
+	.group-members #search-members-form #members_search_submit,
+	.pagination .page-numbers,
+	.youzify-project-type,
+	.youzify-post-type,
+	.youzify-user-statistics li h3,
+	.youzify-membership-form-actions button,
+	.action-button,
+	.youzify-item-button,
+	.youzify-items-list-widget .youzify-list-item .youzify-item-meta .youzify-meta-item,
+	.youzify-reset-options,
+	.youzify-save-options,
+	div.item-list-tabs li a,
+	.youzify-pagination .youzify-nav-links .page-numbers, 
+	.youzify-pagination .youzify-pagination-pages,
+	#whats-new-post-in-box label,
+	.widget_bp_core_members_widget .item-options a, 
+	.widget_bp_groups_widget .item-options a,
+	#youzify-wall-nav li a,
+	.youzify-directory-filter .item-list-tabs li label, 
+	.youzify-directory-filter .item-list-tabs li#members-order-select label,
+	.youzify-user-balance-box .youzify-box-head,
+	.youzify-profile-sidebar .youzify-aboutme-description,
+	.youzify-tab-post .youzify-read-more,
+	#youzify-profile-navmenu .youzify-settings-menu a span,
+	.youzify-media-filter .youzify-filter-item .youzify-filter-content span
+	{	
+		font-size:12px;
+	}
+	/*12px*/
+
+	/*14px*/
+	.youzify-membership-form-item .youzify-membership-item-content label,
+	.youzify-membership-social-buttons .youzify-membership-social-title,,
+	.youzify-tool-btn .youzify-tool-name,
+	.youzify-membership-social-buttons li a,	
+	.youzify-membership-forgot-password,
+	.youzify-head-content h3,
+	.youzify-membership-link-button,	
+	.uk-msg-head h3,
+	.settings-sidebar .account-menus ul li a,
+	.settings-sidebar .account-menus h2,
+	.youzify-account-header ul li a,	
+	.youzify-account-head h2,	
+	.youzify-no-content,
+	#youzify-members-list .youzify-user-actions a,
+	#youzify-groups-list .item .item-title a,
+	#youzify-members-list .youzify-fullname,
+	#youzify-groups-list .action a,
+	#send-invite-form .submit input,
+	.group-members #search-members-form label input,
+	.youzify-recent-posts .youzify-post-head .youzify-post-title a,
+	.youzify-wg-networks.youzify-icons-full-width li a,
+	.youzify-profile-navmenu .youzify-navbar-item a,	
+	.youzify-tab-comment .youzify-comment-fullname,
+	.youzify-post-content .youzify-post-title a,
+	.youzify-tab-post .youzify-post-title a,
+	.youzify-widget .youzify-widget-title,
+	.youzify-box-head .youzify-box-title,
+	.youzify-quote-owner,
+	.youzify-item-title,
+	.uk-option-item label,
+	.youzify-items-list-widget .youzify-list-item a.youzify-item-name,
+	.youzify-modal .uk-option-item .option-title,
+	.youzify-infos-content .youzify-info-label,
+	.youzify-msg-form-item label,
+	.members.friends #youzify-members-list .item .item-title a,
+	#youzify-group-buttons .group-button a,
+	.youzify-wall-embed .youzify-embed-name,
+	.youzify-item-tool .youzify-tool-name,
+	.activity-meta a,
+	.widget_bp_core_members_widget #members-list .vcard .item-title a, 
+	.widget_bp_groups_widget #groups-list li .item-title a,
+	.myCRED-leaderboard .youzify-leaderboard-username,
+	#friend-list.item-list .item .item-title a,
+	#friend-list.item-list .action a, 
+	#youzify-members-list .youzify-user-actions a,
+	.youzify-uploader-change-item h2,
+	.avatar-nav-items li a,
+	#bp-delete-avatar, 
+	#bp-delete-cover-image,
+	.editfield fieldset legend,
+	.editfield .field-visibility-settings-notoggle .current-visibility-level, 
+	.editfield .field-visibility-settings-toggle .current-visibility-level,
+	.option-content .youzify-upload-photo,
+	.youzify-review-item .youzify-head-meta .youzify-item-name a,
+	.youzify-aboutme-name,
+	.youzify-wall-embed .youzify-embed-action .friendship-button a, 
+	.youzify-wall-embed .youzify-embed-action .group-button a, 
+	.youzify-wall-embed .youzify-embed-action .message-button .youzify-send-message,
+	.groups.mygroups #youzify-groups-list .item .item-title a,
+	&.mycred-history #buddypress.youzify .mycred-table tfoot th, 
+	&.mycred-history #buddypress.youzify .mycred-table thead th,
+	&.follows .youzify #youzify-members-list .item .item-title a, 
+	&.my-friends .youzify #youzify-members-list .item .item-title a,
+	.youzify-user-badges-tab .youzify-user-badge-item .youzify-user-badge-title,
+	.youzify-group-navmenu li a,
+	.youzify-rating-show-more,
+	.youzify-profile-list-widget .youzify-more-items a,
+
+	#group-settings-form .radio label, 
+	#group-settings-form label, 
+	.youzify-group-settings-tab .radio label, 
+	.youzify-group-settings-tab label,
+	.youzify .group-members-list .item .item-title a,
+	&.my-groups .youzify #youzify-groups-list .action a,
+	&.my-groups .youzify #youzify-groups-list .item .item-title a,
+	.youzify-directory-filter #directory-show-search a, 
+	.youzify-directory-filter .item-list-tabs li a,
+	.youzify-social-buttons .follow-button a, 
+	.youzify-social-buttons .friendship-button a, 
+	.youzify-social-buttons .message-button a,
+	.youzify .activity-list li.load-more a, 
+	.youzify .activity-list li.load-newest a,
+	.youzify-widget .youzify-widget-content p
+	{
+		font-size:14px;
+	}
+	/*14px*/
+
+	/*16px*/
+	.youzify-membership-form .youzify-membership-form-cover .form-cover-title,
+	.youzify-membership-form .form-title h2,
+	.youzify-project-content .youzify-project-title{
+		font-size:16px;
+	}
+	/*16px*/
+
+	/*18px*/
+	.youzify-head-content h2,
+	.settings-inner-content .options-section-title h2{
+		font-size:18px;
+	}
+	/*18px*/
+
+	/*20px*/
+	.youzify-hdr-v3 .youzify-name h2,
+	.youzify-hdr-v7 .youzify-name h2,
+	.youzify-tab-title-box .youzify-tab-title-content h2{
+		font-size:20px;
+	}
+	/*20px*/	
+
+	/*22px*/
+	.youzify-hdr-v1 .youzify-name h2,
+	.youzify-hdr-v2 .youzify-name h2,
+	.youzify-hdr-v6 .youzify-name h2{
+		font-size:22px;
+	}
+	/*22px*/
+
+	/*24px*/
+	.youzify-video-head .youzify-video-title{
+		font-size:24px;
+	}
+	/*24px*/
+
+	.youzify-widget .youzify-widget-title,
+	.youzify-sidebar .widget-content .widget-title{
+		font-weight:700;
+		text-transform:uppercase;
+		font-size:16px;
+	}
+
+	.youzify-sidebar .widget-content .widget-title,
+	.youzify-widget .youzify-widget-title,
+	.youzify-profile-navmenu .youzify-navbar-item a,
+	.youzify-aboutme-name,
+	.youzify-project-title{
+		color:#000000;
+	}
+
+	.youzify-sidebar .widget-content .widget-title:after{
+		display:none;
+	}
+
+	.youzify-user-statistics li h3,
+	div.item-list-tabs li a{
+		text-transform:uppercase;
+	}
+
+	/*-----------------*/
+
+	.youzify-recent-posts .youzify-post-meta ul li{
+		font-family: $font__main;
+	}	
+
+	.youzify-membership-form-item .youzify-membership-item-content input,
+	.youzify-head-content .youzify-head-meta,
+	.youzify-membership-form .youzify-membership-form-message p,
+	.uk-panel-msg .uk-msg-content p,
+	.youzify-membership-form .youzify-membership-form-desc,
+	[data-youzify-tooltip]:after,
+	.youzify-items-list-widget,
+	.youzify-my-account-widget,
+	.youzify-usermeta li span,
+	.youzify-account-menu a,
+	.youzify-author-infos p,
+	.youzify-dialog-desc,
+	.widget.buddypress,
+	.youzify-tooltip:after,
+	#sitewide-notice #message,
+	#sitewide-notice strong,
+	.youzify_msg span,
+	textarea,
+	.youzify-membership-form-note,
+	select,
+	.youzify-dialog,
+	input,
+	.uk-popup,
+	.youzify-membership,
+	.option-content input:not([type=radio]),
+	.option-content input:not([type=radio]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear),
+	.option-content textarea,
+	.option-content select,
+	.uk-option-item .option-desc,
+	.youzify-account-head span,	
+	#youzify-directory-search-box form input[type=text],
+	#youzify-groups-list .item .item-meta span,
+	#youzify-members-list .youzify-name,
+	.youzify-group-settings-tab textarea,
+	.youzify-group-settings-tab .youzify-group-field-item input[type=text],
+	.youzify-group-manage-members-search #search-members-form #members_search,
+	.youzify-tab-comment .youzify-comment-excerpt p,
+	.youzify-post-plus4imgs .youzify-post-imgs-nbr,	
+	.youzify-tab-comment .youzify-comment-title,	
+	.youzify-form .youzify-form-message p,
+	.youzify-infos-content ul li strong,
+	.youzify-video-head .youzify-video-desc,
+	.youzify-quote-content blockquote,
+	.youzify-tab-post .youzify-post-text p,
+	.youzify-link-content p,
+	.youzify-infos-content ul li p,
+	.youzify-info-msg p strong,
+	.lb-data .lb-caption,
+	.lb-data .lb-number,
+	.youzify-profile-login,
+	.youzify_msg span,
+	.youzify-info-msg p,
+	.youzify-box-404 p,
+	.youzify-aboutme-bio,
+	.nice-select, 
+	div.item-list-tabs .youzify-bar-select,
+	.youzify-name .youzify-user-status,
+	.youzify-user-ratings-details .youzify-user-ratings-rate, 
+	.youzify-user-ratings-details .youzify-user-ratings-total,
+	.youzify-infos-content .youzify-info-data, 
+	.youzify-infos-content .youzify-info-data a,
+	.members.friends #youzify-members-list .item .item-meta span,
+	.nice-select .option,
+	.nice-select .current,
+	#whats-new-post-in-box .nice-select .current,
+	.activity-header p,
+	.activity-header .activity-head p a,
+	.activity-header .time-since, 
+	.activity-header a.activity-time-since span,
+	.youzify-wall-embed .youzify-embed-meta,
+	#message p,
+	.youzify-wall-options .youzify-wall-opts-item label,
+	.youzify-wall-custom-form .youzify-wall-cf-item input, 
+	.youzify-wall-custom-form .youzify-wall-cf-item textarea,
+	.youzify-pinned-post-tag,
+	.widget_bp_core_members_widget #members-list .vcard .item-meta .activity, 
+	.widget_bp_groups_widget #groups-list li .item-meta .activity,
+	.myCRED-leaderboard .youzify-leaderboard-points,
+	.myCRED-leaderboard .youzify-leaderboard-position,
+	#friend-list.item-list .item .item-meta span,
+	.youzify-item-content p,
+	.youzify-uploader-change-item p,
+	.bp-avatar p,
+	div.bp-avatar-status p.warning, 
+	div.bp-cover-image-status p.warning, 
+	div.bp-cover-image-status p.warning, 
+	div.bp-avatar-status p.warning,
+	.editfield label .bp-required-field-label, 
+	.editfield legend .bp-required-field-label,
+	.editfield .field-visibility-settings-notoggle, 
+	.editfield .field-visibility-settings-toggle,
+	.editfield input:not([type=radio]):not([type=checkbox]),	
+	.youzify-items-list-widget .youzify-list-item .youzify-item-meta .youzify-meta-item,
+	.youzify-review-item .youzify-head-meta .youzify-item-date,
+	.youzify-review-item .youzify-item-content .youzify-item-desc,
+	.youzify-link-url,
+	.groups.mygroups #youzify-groups-list .item .item-meta span,
+	.youzify-tab-title-box .youzify-tab-title-content span,
+	&.mycred-history #buddypress.youzify .mycred-table tbody td,
+	&.follows .youzify #youzify-members-list .item .item-meta span, 
+	&.my-friends .youzify #youzify-members-list .item .item-meta span,
+	.youzify-box-content p,
+	.youzify-project-content .youzify-project-text p,
+	.youzify-skill-bar-percent, 
+	.youzify-skillbar-title,
+
+	#group-settings-form .youzify-group-field-item input[type=text], 
+	#group-settings-form textarea,
+	.youzify .group-members-list .item .item-meta,
+	&.my-groups .youzify #youzify-groups-list .item .item-meta span
+	{
+		font-family: $font__main;
+		font-size: 14px;
+		font-weight: $font__main-weight;	
+		letter-spacing: $font__main-letter-spacing;			
+		text-decoration: $font__main-text-decoration;
+		font-style: $font__main-style;
+	}
+
+	.youzify-quote-content blockquote{
+		font-size:18px;
+		font-weight:500;
+		font-style:italic;
+	}
+
+	/*12px*/
+	[data-youzify-tooltip]:after,
+	.youzify-usermeta li span,
+	.youzify-tab-post .youzify-post-meta ul li,
+	.lb-data .lb-number,
+	.youzify-recent-posts .youzify-post-meta ul li,
+	.youzify-tab-post .youzify-post-meta ul li,
+	.youzify-name .youzify-user-status,
+	.youzify-user-ratings-details .youzify-user-ratings-rate, 
+	.youzify-user-ratings-details .youzify-user-ratings-total,
+	.members.friends #youzify-members-list .item .item-meta span,
+	.activity-header .time-since, 
+	.activity-header a.activity-time-since span,
+	.youzify-wall-embed .youzify-embed-meta,
+	.youzify-wall-options .youzify-wall-opts-item label,
+	.youzify-pinned-post-tag,
+	.widget_bp_core_members_widget #members-list .vcard .item-meta .activity, 
+	.widget_bp_groups_widget #groups-list li .item-meta .activity,
+	.myCRED-leaderboard .youzify-leaderboard-points,
+	.myCRED-leaderboard .youzify-leaderboard-position,
+	#friend-list.item-list .item .item-meta span,
+	.editfield label .bp-required-field-label, 
+	.editfield legend .bp-required-field-label,
+	.youzify-items-list-widget .youzify-list-item .youzify-item-meta .youzify-meta-item,
+	.youzify-review-item .youzify-head-meta .youzify-item-date,
+	.groups.mygroups #youzify-groups-list .item .item-meta span,
+	&.follows .youzify #youzify-members-list .item .item-meta span, 
+	&.my-friends .youzify #youzify-members-list .item .item-meta span,
+	.youzify-box-content p,
+	.youzify-project-meta ul li,
+
+	.youzify .group-members-list .item .item-meta,
+	&.my-groups .youzify #youzify-groups-list .item .item-meta span
+	{
+		font-size:12px;
+	}
+	/*12px*/
+
+	.nice-select .current{
+		font-weight:500;
+	}
+	.youzify-name .youzify-user-status{
+		line-height:1.0;
+	}
+
+	div.item-list-tabs .youzify-activity-search button{
+		min-width: 0;
+	}
+	div.item-list-tabs li .youzify-dropdown-area{
+		z-index: 1;
+	}
+}
+
+body.bp-legacy{
+	.youzify-membership-page-box{
+		padding-top:60px;
+		padding-bottom:80px;
+	}
+	.youzify_membership_field_indication{
+		top:2px;
+	}
+
+	.youzify-membership-remember-me .youzify_checkbox_field .youzify_membership_field_indication:after{
+		top:4px;
+		left:9px;
+	}
+
+	#youzify_membership_signup_form .youzify-membership-section-title{
+		margin-bottom:40px;
+		margin-top:10px;		
+	}
+
+	#profile-details-section{
+		.youzify-membership-section-title{
+			margin-top:50px;
+		}
+	}
+
+	.youzify-membership-form .youzify-membership-form-actions button, 
+	.youzify-membership-form .youzify-membership-link-button{
+		font-family: $font__heading;
+		font-size: $h7_font_size;
+		font-weight: $font__weight-extra;
+		line-height: $font__heading-line-height;	
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+		text-transform:uppercase;
+		@include border-radius(0);
+		height:auto;
+		padding: 12px 20px 12px 20px;
+	}
+
+	.youzify-membership-form .youzify-membership-link-button{
+		&:hover,
+		&:focus{
+			color:#FFFFFF;
+		}
+	}
+
+	.youzify-membership-form .form-title h2,
+	.youzify-membership-form .youzify-membership-form-cover .form-cover-title,
+	.youzify-membership-form-item .youzify-membership-item-content label,
+	.youzify-membership-form-actions button,
+	#youzify_membership_signup_form fieldset legend, 
+	#youzify_membership_signup_form label,
+	#youzify_membership_signup_form .youzify-membership-section-title span,
+	#youzify_membership_signup_form .field-visibility-settings-notoggle .current-visibility-level, 
+	#youzify_membership_signup_form .field-visibility-settings-toggle .current-visibility-level,
+	#youzify_membership_signup_form label .field-visibility-text,
+	#youzify_membership_signup_form .field-visibility-settings .field-visibility-settings-close,
+	#youzify_membership_signup_form .field-visibility-settings-notoggle .visibility-toggle-link, 
+	#youzify_membership_signup_form .field-visibility-settings-toggle .visibility-toggle-link{
+		font-family: $font__heading;		
+		font-weight: $font__heading-weight;		
+		letter-spacing: $font__heading-letter-spacing;
+		text-decoration: $font__heading-text-decoration;
+		font-style: $font__heading-style;
+	}
+
+	#youzify_membership_signup_form .field-visibility-settings-notoggle .current-visibility-level, 
+	#youzify_membership_signup_form .field-visibility-settings-toggle .current-visibility-level,
+	#youzify_membership_signup_form .field-visibility-settings-notoggle .visibility-toggle-link, 
+	#youzify_membership_signup_form .field-visibility-settings-toggle .visibility-toggle-link{
+		font-size:12px;
+	}
+
+	.youzify-membership-form .youzify-membership-form-actions button, 
+	.youzify-membership-form .youzify-membership-link-button,
+	.youzify-membership-with-labels .youzify-membership-form-item label,
+	.youzify-membership-form-actions button,
+	#youzify_membership_signup_form fieldset legend, 
+	#youzify_membership_signup_form label,
+	#youzify_membership_signup_form .youzify-membership-section-title span,
+	#youzify_membership_signup_form label .field-visibility-text,
+	#youzify_membership_signup_form .field-visibility-settings .field-visibility-settings-close{
+		font-size:14px;
+	}
+
+	.youzify-membership-form .form-cover-title{
+		font-size:16px;
+	}
+
+	.youzify-membership-forgot-password, 
+	.youzify-membership-form .form-title h2,
+	.youzify-membership-form .youzify-membership-form-desc, 
+	.youzify-membership-form .youzify-membership-form-message p, 	
+	.youzify-membership-form-item .youzify-membership-item-content input, 	
+	.youzify-membership-form-note, 
+	.youzify-membership-link-button, 
+	.youzify-membership-social-buttons .youzify-membership-social-title, 
+	.youzify-membership-social-buttons li a,
+	#youzify_membership_signup_form label .bp-required-field-label, 
+	#youzify_membership_signup_form legend .bp-required-field-label,
+	.youzify-membership-form-note.youzify-membership-terms-note a{
+		font-family: $font__main;
+		font-size: 14px;
+		font-weight: $font__main-weight;	
+		letter-spacing: $font__main-letter-spacing;			
+		text-decoration: $font__main-text-decoration;
+		font-style: $font__main-style;
+	}
+
+	#youzify_membership_signup_form label .bp-required-field-label, 
+	#youzify_membership_signup_form legend .bp-required-field-label{
+		font-size:10px;
+	}
+
+	#youzify_membership_signup_form .field-visibility-settings-notoggle, 
+	#youzify_membership_signup_form .field-visibility-settings-toggle{
+		font-size:14px;
+	}
+
+	.lp-preview-thubmnail-buttons button,
+	.lp-button-cancel{
+		min-width:0;
+		width:auto;
+	}
+
+	.lp-preview-thubmnail-buttons button i,
+	.lp-button-cancel i{
+		display:inline;
+		color:#FFFFFF;
+		line-height:1;
+		font-size:12px;
+	}
+
+	.lp-button-cancel{
+		position:absolute !important;
+	}
+
+	.youzify .lp-prepost-wrap .lp-preview-title{
+		font-size:16px;
+		font-weight:500;
+	}
+
+	.lp-preview-description{
+		margin-top:20px;
+		margin-bottom:20px;
+		font-size:14px;
+	}
+
+	.lp-preview-no-thubmnail-text{
+		font-size:12px;
+	}
+}
+
+.youzify-dialog-container .youzify-dialog-buttons a{
+	text-decoration: none;
+}
+
+.youzify-sidebar .widget-mycred-list .myCRED-leaderboard{
+	padding:25px;
+}
+
+.youzify-sidebar .widget-mycred-list .myCRED-leaderboard .youzify-leaderboard-points{
+	margin-top: 0;
+}
+
+.youzify-scrolltotop{
+	display:none;
+}
